@@ -4,8 +4,8 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import "./css/card.scss";
-import "./css/globals.scss";
+import "./styles/card.scss";
+import "./styles/globals.scss";
 
 config.autoAddCss = false
 const jbmono = JetBrains_Mono({ subsets: ["latin"] });
