@@ -1,0 +1,43 @@
+{
+  "name": "developer-portfolio",
+  "description": "Khang Nguyen Portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@vercel/speed-insights": "latest",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.7",
+    "lottie-react": "^2.4.1",
+    "next": "^15.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-typed": "^2.0.12",
+    "swiper": "^11.2.4",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.8",
+    "@types/react": "19.0.10",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "^15.2.0",
+    "postcss": "latest",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.69.5",
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

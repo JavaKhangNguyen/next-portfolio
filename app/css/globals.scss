@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground-rgb: 211, 216, 232;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+    }
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background-color: #0d1224;
+  }
+}
+
+@layer components {
+  .sticky-card {
+    @apply relative;
+  }
+  
+  #sticky-card-1 {
+    @apply top-16; 
+  }
+  
+  #sticky-card-2 {
+    @apply top-32; 
+  }
+  
+  #sticky-card-3 {
+    @apply top-48; 
+  }
+  
+  #sticky-card-4 {
+    @apply top-64; 
+  }
+
+  .bg-nemesia{
+    @apply bg-gradient-to-r from-emerald-400 to-cyan-400
+  }
+
+  .bg-candy{
+    @apply bg-gradient-to-r from-fuchsia-400 to-pink-600
+  }
+
+  .bg-amaranthus{
+    @apply bg-gradient-to-r from-pink-500 to-violet-600
+  }
+
+  .bg-section-line{
+    @apply bg-gradient-to-r from-transparent via-violet-500 to-transparent
+  }
+}

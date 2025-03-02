@@ -1,0 +1,110 @@
+export const skillsData = [
+  'JavaScript',
+  'TypeScript',
+  'Python',
+  'HTML',
+  'CSS',
+  'ReactJS',
+  'NextJS',
+  'ViteJS',
+  'TailwindCSS',
+  'MaterialUI',
+  'CoreUI',
+  'Git',
+  'FastAPI',
+  'Figma',
+  'NodeJS',
+  'Vercel',
+  'MySQL',
+  'Nginx',
+  'OpenCV'
+]
+
+// AVAILABLE SKILLS
+
+/* 
+  HTML
+  CSS
+  JS 
+  ReactJS
+  NextJS
+  NuxtJS
+  NodeJS
+  Vue
+  Angular
+  Docker
+  Photoshop
+  Illustrator
+  Svelte
+  GCP
+  Azure
+  Fastify
+  FastAPI
+  Flask
+  Haxe
+  Ionic
+  Markdown
+  Microsoft Office
+  Picsart
+  Sketch
+  Unity
+  WolframAlpha
+  Adobe XD
+  After Effects
+  Bootstrap
+  Bulma
+  CapacitorJs
+  Coffeescript
+  MemSQL
+  C
+  C++
+  C#
+  Python
+  Java
+  Julia
+  Matlab
+  Swift
+  Ruby
+  Kotlin
+  Go
+  PHP
+  Flutter
+  Dart
+  Typescript
+  Swift
+  Git
+  Figma
+  Canva
+  Ubuntu
+  Bootstrap
+  MongoDB
+  Tailwind
+  ViteJS
+  Vercel
+  VuetifyJS
+  MySQL
+  PostgreSQL
+  AWS
+  Firebase
+  Blender
+  Premiere Pro
+  Adobe Audition
+  Deno
+  Django
+  Gimp
+  Graphql
+  Lightroom
+  MaterialUI
+  CoreUI
+  shadcn
+  Nginx
+  Numpy
+  Netlify
+  OpenCV
+  Pytorch
+  Selenium
+  Strapi
+  Tensorflow
+  Webex
+  Wordpress
+*/
