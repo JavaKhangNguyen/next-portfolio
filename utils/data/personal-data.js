@@ -11,5 +11,6 @@ export const personalData = {
   resume: "https://drive.google.com/file/d/1c995VKOZevEF-ljHFgIYArpMvBQel7H2/view?usp=drive_link",
   hirable: 'true',
   currentEmployment: 'Available',
-  exp: 'Fresher'
+  exp: 'Fresher',
+  rolesOfInterest: ['Frontend','Backend','Fullstack','AI']
 }

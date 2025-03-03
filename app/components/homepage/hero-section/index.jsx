@@ -48,7 +48,7 @@ export default function HeroSection() {
           </motion.h1>
 
           <motion.div
-            className="my-12 flex items-center gap-5"
+            className="my-5 flex items-center gap-5"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.3 }}
@@ -79,7 +79,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.4 }}
-            className="flex items-center gap-3"
+            className="mt-4 flex items-center gap-3"
           >
             <Link
               href="#contact"
@@ -89,7 +89,7 @@ export default function HeroSection() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] hover:bg-candy rounded-full border-none text-center md:text-sm font-extrabold uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out md:font-bold flex items-center gap-1 hover:gap-3"
+                className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] hover:bg-candy rounded-full border-none text-center md:text-sm font-extrabold uppercase text-[#ffff] no-underline transition-all duration-200 ease-out md:font-bold flex items-center gap-1 hover:gap-2"
               >
                 <span>Contact me</span>
                 <FontAwesomeIcon
@@ -102,7 +102,7 @@ export default function HeroSection() {
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                className="flex items-center gap-1 hover:gap-3 rounded-full uppercase bg-amaranthus hover:bg-candy px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-bold tracking-wider text-white no-underline transition-all ease-in-out duration-300 hover:text-white hover:no-underline md:font-extrabold"
+                className="flex items-center gap-1 hover:gap-3 rounded-full uppercase bg-amaranthus hover:bg-candy px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-bold text-white no-underline transition-all ease-in-out duration-300 hover:text-white hover:no-underline md:font-extrabold"
                 role="button"
                 target="_blank"
                 aria-label="Download CV"
@@ -211,23 +211,38 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
+                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
+                <span className="text-orange-400">{personalData.hirable}</span>
+                <span className="text-gray-400">,</span>
+              </CodeLine>
+              <CodeLine delay={1.6}>
+                <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
+                <span className="text-gray-400">{"'"}</span>
+                <span className="text-amber-300">{personalData.currentEmployment}</span>
+                <span className="text-gray-400">{"'"}</span>
+                <span className="text-gray-400">,</span>
+              </CodeLine>
+              <CodeLine delay={1.7}>
                 <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">expLevel:</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.exp}</span>
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
-              <CodeLine delay={1.6}>
-                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
-                <span className="text-orange-400">{personalData.hirable}</span>
-                <span className="text-gray-400">,</span>
+              <CodeLine delay={1.8} className="ml-4 lg:ml-8 mr-2">
+                <span className="text-sky-400">rolesOfInterests: </span>
+                <span className="text-gray-400">{`['`}</span>
+                {personalData.rolesOfInterest.map((role, index) => (
+                  <React.Fragment key={index}>
+                    <span className="text-amber-300">{role}</span>
+                    {index < personalData.rolesOfInterest.length - 1 ? (
+                      <span className="text-gray-400">{"', '"}</span>) : 
+                      (<span className="text-gray-400">{"'"}</span>)
+                    }
+                  </React.Fragment>
+                ))}
+                <span className="text-gray-400">{"]"}</span>
               </CodeLine>
-              <CodeLine delay={1.7}>
-                <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-amber-300">{personalData.currentEmployment}</span>
-                <span className="text-gray-400">{"'"}</span>
-              </CodeLine>
-              <CodeLine delay={1.8}>
+              <CodeLine delay={1.9}>
                 <span className="text-gray-400">{`};`}</span>
               </CodeLine>
             </motion.code>
