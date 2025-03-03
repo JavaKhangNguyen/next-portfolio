@@ -86,6 +86,7 @@ export default function Navbar() {
         >
           <Link
             href="/"
+            aria-label="Homepage"
             className="bg-nemesia text-transparent bg-clip-text text-3xl font-bold"
             onClick={(e) => handleNavClick(e, '/')}
           >
@@ -104,6 +105,7 @@ export default function Navbar() {
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline cursor-pointer"
               href="/#about"
+              aria-label="About"
               onClick={(e) => handleNavClick(e, '/#about')}
             >
               <div className="text-xs md:text-sm lg:text-base xl:text-xl text-white font-semibold transition-colors duration-300 hover:text-secondary">
@@ -115,6 +117,7 @@ export default function Navbar() {
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline cursor-pointer"
               href="/#experience"
+              aria-label="Experience"
               onClick={(e) => handleNavClick(e, '/#experience')}
             >
               <div className="text-xs md:text-sm lg:text-base xl:text-xl text-white font-semibold transition-colors duration-300 hover:text-secondary">
@@ -126,6 +129,7 @@ export default function Navbar() {
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline cursor-pointer"
               href="/#skills"
+              aria-label="Skills"
               onClick={(e) => handleNavClick(e, '/#skills')}
             >
               <div className="text-xs md:text-sm lg:text-base xl:text-xl text-white font-semibold transition-colors duration-300 hover:text-secondary">
@@ -137,6 +141,7 @@ export default function Navbar() {
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline cursor-pointer"
               href="/#education"
+              aria-label="Education"
               onClick={(e) => handleNavClick(e, '/#education')}
             >
               <div className="text-xs md:text-sm lg:text-base xl:text-xl text-white font-semibold transition-colors duration-300 hover:text-secondary">

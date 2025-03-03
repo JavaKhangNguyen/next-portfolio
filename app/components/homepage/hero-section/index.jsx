@@ -1,8 +1,6 @@
 // @flow strict
 "use client";
 import React from "react";
-import { personalData } from "@/utils/data/personal-data";
-import { skillsData } from "@/utils/data/skills";
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +8,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
+import { personalData } from "@/utils/data/personal-data";
+import { skillsData } from "@/utils/data/skills";
 
 export default function HeroSection() {
   return (
@@ -57,6 +57,7 @@ export default function HeroSection() {
               <Link
                 href={personalData.github}
                 target="_blank"
+                aria-label="GitHub"
                 className="transition-all text-teal-300 hover:!text-white duration-300 ease-in-out"
               >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -66,6 +67,7 @@ export default function HeroSection() {
               <Link
                 href={personalData.linkedIn}
                 target="_blank"
+                aria-label="LinkedIn"
                 className="transition-all text-teal-300 hover:text-linkedin duration-300 ease-in-out"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -81,6 +83,7 @@ export default function HeroSection() {
           >
             <Link
               href="#contact"
+              aria-label="Contact me"
               className="bg-amaranthus p-[1px] rounded-full transition-all duration-300"
             >
               <motion.button
@@ -102,6 +105,7 @@ export default function HeroSection() {
                 className="flex items-center gap-1 hover:gap-3 rounded-full uppercase bg-amaranthus hover:bg-candy px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-bold tracking-wider text-white no-underline transition-all ease-in-out duration-300 hover:text-white hover:no-underline md:font-extrabold"
                 role="button"
                 target="_blank"
+                aria-label="Download CV"
                 href={personalData.resume}
               >
                 <span>Download CV</span>

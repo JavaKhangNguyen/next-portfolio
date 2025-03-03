@@ -129,6 +129,7 @@ export default function ContactSection() {
                 <Link
                   href={personalData.github}
                   target='_blank'
+                  aria-label="Github"
                   className="text-teal-300 hover:!text-white"
                 >
                   <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -141,6 +142,7 @@ export default function ContactSection() {
                 <Link
                   href={personalData.linkedIn}
                   target='_blank'
+                  aria-label="LinkedIn"
                   className="text-teal-300 hover:text-linkedin"
                 >
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
