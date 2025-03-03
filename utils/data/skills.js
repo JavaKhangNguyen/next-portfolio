@@ -2,6 +2,7 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'Python',
+  'Java',
   'HTML',
   'CSS',
   'ReactJS',
@@ -21,6 +22,7 @@ export const skillsData = [
   'MySQL',
   'OpenCV',
   'Ubuntu',
+  'Linux',
   'Nginx',
   'Jira',
   'Confluence'
