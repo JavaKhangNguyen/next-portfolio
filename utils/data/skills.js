@@ -7,17 +7,23 @@ export const skillsData = [
   'ReactJS',
   'NextJS',
   'ViteJS',
+  'NodeJS',
   'TailwindCSS',
   'MaterialUI',
   'CoreUI',
-  'Git',
+  'SwiperJS',
+  'LottieFiles',
+  'Streamlit',
   'FastAPI',
   'Figma',
-  'NodeJS',
+  'Git',
   'Vercel',
   'MySQL',
+  'OpenCV',
+  'Ubuntu',
   'Nginx',
-  'OpenCV'
+  'Jira',
+  'Confluence'
 ]
 
 // AVAILABLE SKILLS
@@ -107,4 +113,13 @@ export const skillsData = [
   Tensorflow
   Webex
   Wordpress
+  Linux
+  Ubuntu
+  Jira
+  Confluence
+  Vitest
+  Bitbucket
+  Streamlit
+  SwiperJS
+  LottieFiles
 */

@@ -7,6 +7,7 @@ import azure from '../app/assets/svg/skills/azure.svg';
 import blender from '../app/assets/svg/skills/blender.svg';
 import bootstrap from '../app/assets/svg/skills/bootstrap.svg';
 import bulma from '../app/assets/svg/skills/bulma.svg';
+import bitbucket from '../app/assets/svg/skills/bitbucket.svg';
 import c from '../app/assets/svg/skills/c.svg';
 import canva from '../app/assets/svg/skills/canva.svg';
 import capacitorjs from '../app/assets/svg/skills/capacitorjs.svg';
@@ -14,6 +15,7 @@ import coffeescript from '../app/assets/svg/skills/coffeescript.svg';
 import cplusplus from '../app/assets/svg/skills/cplusplus.svg';
 import csharp from '../app/assets/svg/skills/csharp.svg';
 import css from '../app/assets/svg/skills/css.svg';
+import confluence from '../app/assets/svg/skills/confluence.svg';
 import coreui from '../app/assets/svg/skills/coreui.svg';
 import dart from '../app/assets/svg/skills/dart.svg';
 import deno from '../app/assets/svg/skills/deno.svg';
@@ -37,8 +39,10 @@ import ionic from '../app/assets/svg/skills/ionic.svg';
 import java from '../app/assets/svg/skills/java.svg';
 import javascript from '../app/assets/svg/skills/javascript.svg';
 import julia from '../app/assets/svg/skills/julia.svg';
+import jira from '../app/assets/svg/skills/jira.svg';
 import kotlin from '../app/assets/svg/skills/kotlin.svg';
 import lightroom from '../app/assets/svg/skills/lightroom.svg';
+import lottiefiles from '../app/assets/svg/skills/lottiefiles.svg';
 import markdown from '../app/assets/svg/skills/markdown.svg';
 import materialui from '../app/assets/svg/skills/materialui.svg';
 import matlab from '../app/assets/svg/skills/matlab.svg';
@@ -72,7 +76,9 @@ import tailwind from '../app/assets/svg/skills/tailwind.svg';
 import tensorflow from '../app/assets/svg/skills/tensorflow.svg';
 import typescript from '../app/assets/svg/skills/typescript.svg';
 import unity from '../app/assets/svg/skills/unity.svg';
+import ubuntu from '../app/assets/svg/skills/ubuntu.svg';
 import vitejs from '../app/assets/svg/skills/vitejs.svg';
+import vitest from '../app/assets/svg/skills/vitest.svg';
 import vue from '../app/assets/svg/skills/vue.svg';
 import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import vercel from '../app/assets/svg/skills/vercel.svg';
@@ -86,6 +92,8 @@ import dotnet from '../app/assets/svg/skills/dotnet.svg';
 import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg'
 import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
+import swiperjs from '../app/assets/svg/skills/swiperjs.svg'
+import streamlit from '../app/assets/svg/skills/streamlit.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 
 
@@ -106,6 +114,8 @@ export const skillsImage = (skill) => {
       return adobeXd;
     case 'after effects':
       return afterEffects;
+    case 'bitbucket':
+      return bitbucket;
     case 'css':
       return css;
     case 'angular':
@@ -146,6 +156,8 @@ export const skillsImage = (skill) => {
       return tailwind;
     case 'vitejs':
       return vitejs;
+    case 'vitest':
+      return vitest;
     case 'vuetifyjs':
       return vuetifyjs;
     case 'c':
@@ -156,6 +168,8 @@ export const skillsImage = (skill) => {
       return csharp;
     case 'coreui': 
       return coreui;
+    case 'confluence': 
+      return confluence;
     case 'flask':
       return flask;
     case 'dart':
@@ -168,6 +182,8 @@ export const skillsImage = (skill) => {
       return kotlin;
     case 'julia':
       return julia;
+    case 'jira':
+      return jira;
     case 'matlab':
       return matlab;
     case 'php':
@@ -196,6 +212,8 @@ export const skillsImage = (skill) => {
       return graphql;
     case 'lightroom':
       return lightroom;
+    case 'lottiefiles': 
+      return lottiefiles;
     case 'materialui':
       return materialui;
     case 'nginx':
@@ -212,6 +230,10 @@ export const skillsImage = (skill) => {
       return selenium;
     case 'strapi':
       return strapi;
+    case 'swiperjs':
+      return swiperjs;
+    case 'streamlit':
+      return streamlit;
     case 'tensorflow':
       return tensorflow;
     case 'webix':
@@ -242,6 +264,8 @@ export const skillsImage = (skill) => {
       return sketch;
     case 'unity':
       return unity;
+    case 'ubuntu':
+      return ubuntu;
     case 'wolframalpha':
       return wolframalpha;
     case 'canva':

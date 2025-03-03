@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Front-end Developer (Part-time)',
+    title: 'Backend Developer (Part-time)',
     company: "AI4IA",
     duration: "06/2023 - Present",
     logo: '/orgs/AI4IA.webp',
