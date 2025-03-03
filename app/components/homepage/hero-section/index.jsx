@@ -15,7 +15,6 @@ export default function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        loading="eager"
         src="/hero.svg"
         alt="Hero"
         width={1572}
