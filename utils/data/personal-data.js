@@ -10,5 +10,6 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/ngpkhang/',
   resume: "https://drive.google.com/file/d/1c995VKOZevEF-ljHFgIYArpMvBQel7H2/view?usp=drive_link",
   hirable: 'true',
-  currentEmployment: 'Available'
+  currentEmployment: 'Available',
+  exp: 'Fresher'
 }

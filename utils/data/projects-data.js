@@ -1,8 +1,8 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'IU Youth - Student Plugin',
-        description: 'A ReactJS-based plugin for IU Youth Union in activities confirmation lookup & automatic generator for certificates of participation',
+        name: 'IU Youth Web Plugin',
+        description: 'A ReactJS-based plugin for IU Youth Union website in activities confirmation lookup & automatic generator for certificates of participation',
         langs: ['JavaScript'],
         tools: ['ReactJS', 'MaterialUI', 'WordPress'],
         role: 'Front-end Developer',

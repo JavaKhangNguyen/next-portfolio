@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
         <Link href={project.url} target='_blank'>
-          <div className="text-center text-secondary text-base md:text-xl hover:text-pink-500">
+          <div className="text-center text-secondary text-xs md:text-xl hover:text-pink-500">
             {project.name}
           </div>
         </Link>
@@ -50,7 +50,7 @@ function ProjectCard({ project }) {
                 </React.Fragment>
               ))
             }
-            <span className="text-gray-400">{"],"}</span>
+            <span className="text-gray-400">{"'],"}</span>
           </div>  
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">techs:</span>
@@ -66,7 +66,7 @@ function ProjectCard({ project }) {
                 </React.Fragment>
               ))
             }
-            <span className="text-gray-400">{"],"}</span>
+            <span className="text-gray-400">{"'],"}</span>
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">role:</span>

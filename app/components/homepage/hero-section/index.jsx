@@ -8,6 +8,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFileArrowDown, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
+import { CodeLine } from "./code-line";
 import { personalData } from "@/utils/data/personal-data";
 import { skillsData } from "@/utils/data/skills";
 
@@ -210,17 +211,23 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">expLevel:</span>
+                <span className="text-gray-400">{"'"}</span>
+                <span className="text-amber-300">{personalData.exp}</span>
+                <span className="text-gray-400">{"'"}</span>
+              </CodeLine>
+              <CodeLine delay={1.6}>
+                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
                 <span className="text-orange-400">{personalData.hirable}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
-              <CodeLine delay={1.6}>
+              <CodeLine delay={1.7}>
                 <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.currentEmployment}</span>
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
-              <CodeLine delay={1.7}>
+              <CodeLine delay={1.8}>
                 <span className="text-gray-400">{`};`}</span>
               </CodeLine>
             </motion.code>
@@ -228,18 +235,5 @@ export default function HeroSection() {
         </motion.div>
       </div>
     </section>
-  );
-}
-
-export function CodeLine({ children, delay, className = "" }) {
-  return (
-    <motion.div
-      className={className}
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, delay }}
-    >
-      {children}
-    </motion.div>
   );
 }
