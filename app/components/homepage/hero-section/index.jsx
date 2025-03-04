@@ -16,14 +16,13 @@ import { RolesOfInterest } from "./roles";
 export default function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <div className="absolute -top-[98px] -z-10">
-        <Image
+      <Image
           src="/hero.svg"
           alt="Hero"
           width={1572}
           height={1572}
-        />
-      </div>
+          className="absolute -top-[98px] -z-10"
+      />
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
