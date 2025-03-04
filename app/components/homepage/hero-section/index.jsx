@@ -11,17 +11,19 @@ import { motion } from "framer-motion";
 import { CodeLine } from "./code-line";
 import { personalData } from "@/utils/data/personal-data";
 import { skillsData } from "@/utils/data/skills";
+import { RolesOfInterest } from "./roles";
 
 export default function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <Image
-        src="/hero.svg"
-        alt="Hero"
-        width={1572}
-        height={1572}
-        className="absolute -top-[98px] -z-10"
-      />
+      <div className="absolute -top-[98px] -z-10">
+        <Image
+          src="/hero.svg"
+          alt="Hero"
+          width={1572}
+          height={1572}
+        />
+      </div>
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -193,9 +195,10 @@ export default function HeroSection() {
                   <React.Fragment key={index}>
                     <span className="text-amber-300">{skill}</span>
                     {index < skillsData.length - 1 ? (
-                      <span className="text-gray-400">{"', '"}</span>) : 
-                      (<span className="text-gray-400">{"'"}</span>)
-                    }
+                      <span className="text-gray-400">{"', '"}</span>
+                    ) : (
+                      <span className="text-gray-400">{"'"}</span>
+                    )}
                   </React.Fragment>
                 ))}
                 <span className="text-gray-400">{"],"}</span>
@@ -206,12 +209,16 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.4}>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">
+                  quickLearner:
+                </span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
-                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">
+                  hireable:
+                </span>
                 <span className="text-orange-400">{personalData.hirable}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
@@ -223,24 +230,15 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.7}>
-                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">expLevel:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">
+                  expLevel:
+                </span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.exp}</span>
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
               <CodeLine delay={1.8} className="ml-4 lg:ml-8 mr-2">
-                <span className="text-sky-400">rolesOfInterests: </span>
-                <span className="text-gray-400">{`['`}</span>
-                {personalData.rolesOfInterest.map((role, index) => (
-                  <React.Fragment key={index}>
-                    <span className="text-amber-300">{role}</span>
-                    {index < personalData.rolesOfInterest.length - 1 ? (
-                      <span className="text-gray-400">{"', '"}</span>) : 
-                      (<span className="text-gray-400">{"'"}</span>)
-                    }
-                  </React.Fragment>
-                ))}
-                <span className="text-gray-400">{"]"}</span>
+                {personalData.rolesOfInterest && (<RolesOfInterest roles={personalData.rolesOfInterest} />)}
               </CodeLine>
               <CodeLine delay={1.9}>
                 <span className="text-gray-400">{`};`}</span>
