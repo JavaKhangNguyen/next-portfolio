@@ -1,7 +1,9 @@
 import adobeXd from '../app/assets/svg/skills/adobe-xd.svg';
 import adobeaudition from '../app/assets/svg/skills/adobeaudition.svg';
+import alova from '../app/assets/svg/skills/alova.svg';
 import afterEffects from '../app/assets/svg/skills/after-effects.svg';
 import angular from '../app/assets/svg/skills/angular.svg';
+import axios from '../app/assets/svg/skills/axios.svg';
 import aws from '../app/assets/svg/skills/aws.svg';
 import azure from '../app/assets/svg/skills/azure.svg';
 import blender from '../app/assets/svg/skills/blender.svg';
@@ -65,6 +67,7 @@ import premierepro from '../app/assets/svg/skills/premierepro.svg';
 import python from '../app/assets/svg/skills/python.svg';
 import pytorch from '../app/assets/svg/skills/pytorch.svg';
 import react from '../app/assets/svg/skills/react.svg';
+import redux from '../app/assets/svg/skills/redux.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
 import shadcn from '../app/assets/svg/skills/shadcn.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
@@ -96,203 +99,213 @@ import swiperjs from '../app/assets/svg/skills/swiperjs.svg'
 import streamlit from '../app/assets/svg/skills/streamlit.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 
-
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
-    case 'gcp':
-      return gcp;
-    case 'html':
-      return html;
-    case 'photoshop':
-      return photoshop;
-    case 'docker':
-      return docker;
-    case 'illustrator':
-      return illustrator;
+    case '.net':
+      return dotnet;
+    case '.net core':
+      return dotnetcore;
+    case 'adobe audition':
+      return adobeaudition;
     case 'adobe xd':
       return adobeXd;
     case 'after effects':
       return afterEffects;
-    case 'bitbucket':
-      return bitbucket;
-    case 'css':
-      return css;
+    case 'alovajs':
+      return alova
     case 'angular':
       return angular;
-    case 'javascript':
-      return javascript;
-    case 'nextjs':
-      return nextJS;
-    case 'nuxtjs':
-      return nuxtJS;
-    case 'nodejs':
-      return nodeJS;
-    case 'reactjs':
-      return react;
-    case 'svelte':
-      return svelte;
-    case 'typescript':
-      return typescript;
-    case 'vuejs':
-      return vue;
+    case 'axios':
+      return axios
+    case 'aws':
+      return aws;
+    case 'azure':
+      return azure;
+    case 'bitbucket':
+      return bitbucket;
+    case 'blender':
+      return blender;
     case 'bootstrap':
       return bootstrap;
     case 'bulma':
       return bulma;
+    case 'canva':
+      return canva;
     case 'capacitorjs':
       return capacitorjs;
-    case 'coffeescript':
-      return coffeescript;
-    case 'memsql':
-      return memsql;
-    case 'mongodb':
-      return mongoDB;
-    case 'mysql':
-      return mysql;
-    case 'postgresql':
-      return postgresql;
-    case 'tailwindcss':
-      return tailwind;
-    case 'vitejs':
-      return vitejs;
-    case 'vitest':
-      return vitest;
-    case 'vuetifyjs':
-      return vuetifyjs;
     case 'c':
       return c;
-    case 'c++':
-      return cplusplus;
     case 'c#':
       return csharp;
-    case 'coreui': 
-      return coreui;
-    case 'confluence': 
+    case 'c++':
+      return cplusplus;
+    case 'coffeescript':
+      return coffeescript;
+    case 'confluence':
       return confluence;
-    case 'flask':
-      return flask;
+    case 'coreui':
+      return coreui;
+    case 'css':
+      return css;
     case 'dart':
       return dart;
-    case 'go':
-      return go;
-    case 'java':
-      return java;
-    case 'kotlin':
-      return kotlin;
-    case 'julia':
-      return julia;
-    case 'jira':
-      return jira;
-    case 'matlab':
-      return matlab;
-    case 'php':
-      return php;
-    case 'python':
-      return python;
-    case 'ruby':
-      return ruby;
-    case 'swift':
-      return swift;
-    case 'adobe audition':
-      return adobeaudition;
-    case 'aws':
-      return aws;
     case 'deno':
       return deno;
     case 'django':
       return django;
-    case 'firebase':
-      return firebase;
-    case 'gimp':
-      return gimp;
-    case 'git':
-      return git;
-    case 'graphql':
-      return graphql;
-    case 'lightroom':
-      return lightroom;
-    case 'lottiefiles': 
-      return lottiefiles;
-    case 'materialui':
-      return materialui;
-    case 'nginx':
-      return nginx;
-    case 'numpy':
-      return numpy;
-    case 'opencv':
-      return opencv;
-    case 'premiere pro':
-      return premierepro;
-    case 'pytorch':
-      return pytorch;
-    case 'selenium':
-      return selenium;
-    case 'strapi':
-      return strapi;
-    case 'swiperjs':
-      return swiperjs;
-    case 'streamlit':
-      return streamlit;
-    case 'tensorflow':
-      return tensorflow;
-    case 'webix':
-      return webix;
-    case 'wordpress':
-      return wordpress;
-    case 'azure':
-      return azure;
-    case 'blender':
-      return blender;
+    case 'docker':
+      return docker;
+    case 'fastapi':
+      return fastapi;
     case 'fastify':
       return fastify;
     case 'figma':
       return figma;
+    case 'firebase':
+      return firebase;
+    case 'flask':
+      return flask;
     case 'flutter':
       return flutter;
+    case 'gcp':
+      return gcp;
+    case 'git':
+      return git;
+    case 'gimp':
+      return gimp;
+    case 'go':
+      return go;
+    case 'graphql':
+      return graphql;
     case 'haxe':
       return haxe;
+    case 'html':
+      return html;
+    case 'illustrator':
+      return illustrator;
     case 'ionic':
       return ionic;
-    case 'markdown':
-      return markdown;
-    case 'microsoft office':
-      return microsoftoffice;
-    case 'picsart':
-      return picsart;
-    case 'sketch':
-      return sketch;
-    case 'unity':
-      return unity;
-    case 'ubuntu':
-      return ubuntu;
-    case 'wolframalpha':
-      return wolframalpha;
-    case 'canva':
-      return canva;
-    case 'pandas':
-      return pandas;
-    case 'sklearn':
-      return scikitlearn;
-    case '.net':
-      return dotnet;
-    case '.net core':
-      return dotnetcore
-    case 'netlify': 
-      return netlify;
-    case 'shadcn':
-      return shadcn
+    case 'java':
+      return java;
+    case 'javascript':
+      return javascript;
+    case 'jira':
+      return jira;
+    case 'julia':
+      return julia;
+    case 'kotlin':
+      return kotlin;
     case 'kubernetes':
       return kubernetes;
+    case 'lightroom':
+      return lightroom;
     case 'linux':
       return linux;
+    case 'lottiefiles':
+      return lottiefiles;
+    case 'markdown':
+      return markdown;
+    case 'materialui':
+      return materialui;
+    case 'matlab':
+      return matlab;
+    case 'memsql':
+      return memsql;
+    case 'microsoft office':
+      return microsoftoffice;
+    case 'mongodb':
+      return mongoDB;
+    case 'mysql':
+      return mysql;
+    case 'netlify':
+      return netlify;
+    case 'nextjs':
+      return nextJS;
+    case 'nginx':
+      return nginx;
+    case 'nodejs':
+      return nodeJS;
+    case 'nuxtjs':
+      return nuxtJS;
+    case 'numpy':
+      return numpy;
+    case 'opencv':
+      return opencv;
+    case 'pandas':
+      return pandas;
+    case 'photoshop':
+      return photoshop;
+    case 'php':
+      return php;
+    case 'picsart':
+      return picsart;
+    case 'postgresql':
+      return postgresql;
+    case 'premiere pro':
+      return premierepro;
+    case 'pytorch':
+      return pytorch;
+    case 'python':
+      return python;
+    case 'reactjs':
+      return react;
+    case 'redux':
+      return redux;
+    case 'ruby':
+      return ruby;
+    case 'scikitlearn':
+      return scikitlearn;
+    case 'selenium':
+      return selenium;
+    case 'shadcn':
+      return shadcn;
+    case 'sketch':
+      return sketch;
+    case 'sklearn':
+      return scikitlearn;
     case 'sqlalchemy':
       return sqlalchemy;
-    case 'fastapi':
-      return fastapi;
-    case 'vercel': 
+    case 'streamlit':
+      return streamlit;
+    case 'strapi':
+      return strapi;
+    case 'svelte':
+      return svelte;
+    case 'swift':
+      return swift;
+    case 'swiperjs':
+      return swiperjs;
+    case 'tailwindcss':
+      return tailwind;
+    case 'tensorflow':
+      return tensorflow;
+    case 'typescript':
+      return typescript;
+    case 'ubuntu':
+      return ubuntu;
+    case 'unity':
+      return unity;
+    case 'vercel':
       return vercel;
+    case 'vitejs':
+      return vitejs;
+    case 'vitest':
+      return vitest;
+    case 'vuejs':
+      return vue;
+    case 'vuetifyjs':
+      return vuetifyjs;
+    case 'webix':
+      return webix;
+    case 'webex':
+      return webex;
+    case 'wolframalpha':
+      return wolframalpha;
+    case 'wordpress':
+      return wordpress;
     default:
       break;
-  }
+}
+
 }

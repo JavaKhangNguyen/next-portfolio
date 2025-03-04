@@ -14,10 +14,11 @@ export const skillsData = [
   'CoreUI',
   'SwiperJS',
   'LottieFiles',
-  'Streamlit',
+  'Axios',
   'FastAPI',
   'Figma',
   'Git',
+  'Streamlit',
   'Vercel',
   'MySQL',
   'OpenCV',
@@ -31,97 +32,88 @@ export const skillsData = [
 // AVAILABLE SKILLS
 
 /* 
-  HTML
-  CSS
-  JS 
-  ReactJS
-  NextJS
-  NuxtJS
-  NodeJS
-  Vue
-  Angular
-  Docker
-  Photoshop
-  Illustrator
-  Svelte
-  GCP
-  Azure
-  Fastify
-  FastAPI
-  Flask
-  Haxe
-  Ionic
-  Markdown
-  Microsoft Office
-  Picsart
-  Sketch
-  Unity
-  WolframAlpha
-  Adobe XD
-  After Effects
-  Bootstrap
-  Bulma
-  CapacitorJs
-  Coffeescript
-  MemSQL
-  C
-  C++
-  C#
-  Python
-  Java
-  Julia
-  Matlab
-  Swift
-  Ruby
-  Kotlin
-  Go
-  PHP
-  Flutter
-  Dart
-  Typescript
-  Swift
-  Git
-  Figma
-  Canva
-  Ubuntu
-  Bootstrap
-  MongoDB
-  Tailwind
-  ViteJS
-  Vercel
-  VuetifyJS
-  MySQL
-  PostgreSQL
-  AWS
-  Firebase
-  Blender
-  Premiere Pro
-  Adobe Audition
-  Deno
-  Django
-  Gimp
-  Graphql
-  Lightroom
-  MaterialUI
-  CoreUI
-  shadcn
-  Nginx
-  Numpy
-  Netlify
-  OpenCV
-  Pytorch
-  Selenium
-  Strapi
-  Tensorflow
-  Webex
-  Wordpress
-  Linux
-  Ubuntu
-  Jira
-  Confluence
-  Vitest
-  Bitbucket
-  Streamlit
-  SwiperJS
-  LottieFiles
+  Adobe Audition  
+  Adobe XD  
+  After Effects  
+  AlovaJS  
+  Angular  
+  AWS  
+  Bitbucket  
+  Blender  
+  Bootstrap  
+  Bulma  
+  C  
+  C#  
+  C++  
+  Canva  
+  CapacitorJs  
+  Coffeescript  
+  Confluence  
+  CoreUI  
+  Dart  
+  Deno  
+  Docker  
+  FastAPI  
+  Fastify  
+  Figma  
+  Firebase  
+  Flask  
+  Flutter  
+  GCP  
+  Git  
+  Gimp  
+  Go  
+  Graphql  
+  Haxe  
+  HTML  
+  Illustrator  
+  Ionic  
+  Java  
+  Jira  
+  Julia  
+  JS  
+  Kotlin  
+  Lightroom  
+  Linux  
+  LottieFiles  
+  Markdown  
+  MaterialUI  
+  Matlab  
+  MemSQL  
+  Microsoft Office  
+  MongoDB  
+  MySQL  
+  Netlify  
+  NextJS  
+  Nginx  
+  Numpy  
+  NuxtJS  
+  OpenCV  
+  Photoshop  
+  PHP  
+  Picsart  
+  PostgreSQL  
+  Premiere Pro  
+  Python  
+  ReactJS  
+  Redux  
+  Ruby  
+  Selenium  
+  shadcn  
+  Sketch  
+  Svelte  
+  Swift  
+  Tensorflow  
+  Tailwind  
+  Typescript  
+  Ubuntu  
+  Unity  
+  Vercel  
+  ViteJS  
+  Vitest  
+  Vue  
+  VuetifyJS  
+  Webex  
+  WolframAlpha  
+  Wordpress  
 */
