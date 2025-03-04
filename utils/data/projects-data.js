@@ -47,7 +47,7 @@ export const projectsData = [
     {
         id: 6,
         name: 'Plant Classification',
-        description: "An AI system for classifying 1000+ different types of plants. Trained on 350k images",
+        description: "An AI system for classifying 1000+ different types of plants. Trained on 350.000 images",
         langs: ['Python'],
         tools: ['PyTorch (YOLO)', 'Streamlit'],
         role: 'AI Engineer',

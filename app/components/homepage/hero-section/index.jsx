@@ -23,7 +23,7 @@ export default function HeroSection() {
           height={1572}
           className="absolute -top-[98px] -z-10"
       />
-      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
+      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-5">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -164,7 +164,7 @@ export default function HeroSection() {
             </div>
           </div>
           <motion.div
-            className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8"
+            className="overflow-hidden border-t-[2px] border-indigo-900 pl-4 lg:pl-8 py-4 lg:py-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.25 }}

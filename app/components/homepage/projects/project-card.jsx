@@ -2,8 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-function ProjectCard({ project }) {
-
+export default function ProjectCard({ project }) {
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -22,7 +21,7 @@ function ProjectCard({ project }) {
           </div>
         </Link>
       </div>
-      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+      <div className="overflow-hidden border-t-[2px] border-indigo-900 pl-4 lg:pl-8 py-4 lg:py-8">
         <code className="font-sans text-xs md:text-sm lg:text-base">
           <div className="blink">
             <span className="mr-2 text-pink-500">const</span>
@@ -93,5 +92,3 @@ function ProjectCard({ project }) {
     </div>
   );
 };
-
-export default ProjectCard;

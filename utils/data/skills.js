@@ -13,20 +13,20 @@ export const skillsData = [
   'MaterialUI',
   'CoreUI',
   'SwiperJS',
-  'LottieFiles',
   'Axios',
   'FastAPI',
   'Figma',
   'Git',
-  'Streamlit',
+  'Jira',
+  'Confluence',
   'Vercel',
   'MySQL',
+  'LottieFiles',
   'OpenCV',
   'Ubuntu',
   'Linux',
   'Nginx',
-  'Jira',
-  'Confluence'
+  'Streamlit',
 ]
 
 // AVAILABLE SKILLS
