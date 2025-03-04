@@ -1,5 +1,6 @@
 import { JetBrains_Mono } from "next/font/google";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           {children}
           <ScrollToTop />
           <SpeedInsights />
+          <Analytics />
         </main>
       </body>
     </html>
