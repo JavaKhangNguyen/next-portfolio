@@ -13,9 +13,11 @@ import bootstrap from '@/app/assets/svg/skills/bootstrap.svg';
 import bulma from '@/app/assets/svg/skills/bulma.svg';
 import bitbucket from '@/app/assets/svg/skills/bitbucket.svg';
 import c from '@/app/assets/svg/skills/c.svg';
+import cakephp from '@/app/assets/svg/skills/cakephp.svg';
 import canva from '@/app/assets/svg/skills/canva.svg';
 import capacitorjs from '@/app/assets/svg/skills/capacitorjs.svg';
 import coffeescript from '@/app/assets/svg/skills/coffeescript.svg';
+import codeigniter from '@/app/assets/svg/skills/codeigniter.svg';
 import cplusplus from '@/app/assets/svg/skills/cplusplus.svg';
 import csharp from '@/app/assets/svg/skills/csharp.svg';
 import css from '@/app/assets/svg/skills/css.svg';
@@ -51,7 +53,8 @@ import javascript from '@/app/assets/svg/skills/javascript.svg';
 import julia from '@/app/assets/svg/skills/julia.svg';
 import jira from '@/app/assets/svg/skills/jira.svg';
 import kotlin from '@/app/assets/svg/skills/kotlin.svg';
-import kubernetes from '@/app/assets/svg/skills/kubernetes.svg'
+import kubernetes from '@/app/assets/svg/skills/kubernetes.svg';
+import laravel from '@/app/assets/svg/skills/laravel.svg';
 import lightroom from '@/app/assets/svg/skills/lightroom.svg';
 import linux from '@/app/assets/svg/skills/linux.svg'
 import lottiefiles from '@/app/assets/svg/skills/lottiefiles.svg';
@@ -79,9 +82,11 @@ import preact from '@/app/assets/svg/skills/preact.svg';
 import premierepro from '@/app/assets/svg/skills/premierepro.svg';
 import python from '@/app/assets/svg/skills/python.svg';
 import pytorch from '@/app/assets/svg/skills/pytorch.svg';
+import radix from '@/app/assets/svg/skills/radix.svg';
 import react from '@/app/assets/svg/skills/react.svg';
 import reason from '@/app/assets/svg/skills/reason.svg';
 import redux from '@/app/assets/svg/skills/redux.svg';
+import remix from '@/app/assets/svg/skills/remix.svg';
 import ruby from '@/app/assets/svg/skills/ruby.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
@@ -106,7 +111,6 @@ import vercel from '@/app/assets/svg/skills/vercel.svg';
 import webix from '@/app/assets/svg/skills/webix.svg';
 import wolframalpha from '@/app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '@/app/assets/svg/skills/wordpress.svg';
-
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -143,16 +147,20 @@ export const skillsImage = (skill) => {
       return bootstrap;
     case 'bulma':
       return bulma;
-    case 'canva':
-      return canva;
-    case 'capacitorjs':
-      return capacitorjs;
     case 'c':
       return c;
     case 'c#':
       return csharp;
     case 'c++':
       return cplusplus;
+    case 'canva':
+      return canva;
+    case 'capacitorjs':
+      return capacitorjs;
+    case 'cakephp':
+      return cakephp;
+    case 'codeigniter':
+      return codeigniter;
     case 'coffeescript':
       return coffeescript;
     case 'confluence':
@@ -219,6 +227,8 @@ export const skillsImage = (skill) => {
       return kotlin;
     case 'kubernetes':
       return kubernetes;
+    case 'laravel':
+      return laravel;
     case 'lightroom':
       return lightroom;
     case 'linux':
@@ -273,12 +283,16 @@ export const skillsImage = (skill) => {
       return pytorch;
     case 'python':
       return python;
+    case 'radixui':
+      return radix;
     case 'reactjs':
       return react;
     case 'reason':
       return reason;
     case 'redux':
       return redux;
+    case 'remix':
+      return remix;
     case 'ruby':
       return ruby;
     case 'scikitlearn':
