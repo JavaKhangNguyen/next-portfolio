@@ -26,18 +26,22 @@ export const skillsData = [
   'Ubuntu',
   'Linux',
   'Nginx',
-  'Streamlit',
+  'Streamlit'
 ]
 
 // AVAILABLE SKILLS
 
 /* 
+  .NET
+  .NET Core
   Adobe Audition  
   Adobe XD  
   After Effects  
   AlovaJS  
-  Angular  
+  Angular 
+  Aurelia 
   AWS  
+  BackboneJS
   Bitbucket  
   Blender  
   Bootstrap  
@@ -52,7 +56,12 @@ export const skillsData = [
   CoreUI  
   Dart  
   Deno  
-  Docker  
+  Docker 
+  Django 
+  Ember
+  ElectronJS
+  Elm
+  Express
   FastAPI  
   Fastify  
   Figma  
@@ -71,7 +80,7 @@ export const skillsData = [
   Java  
   Jira  
   Julia  
-  JS  
+  JavaScript  
   Kotlin  
   Lightroom  
   Linux  
@@ -80,6 +89,7 @@ export const skillsData = [
   MaterialUI  
   Matlab  
   MemSQL  
+  Meteor
   Microsoft Office  
   MongoDB  
   MySQL  
@@ -93,9 +103,11 @@ export const skillsData = [
   PHP  
   Picsart  
   PostgreSQL  
-  Premiere Pro  
+  Premiere Pro 
+  Preact 
   Python  
-  ReactJS  
+  ReactJS 
+  Reason 
   Redux  
   Ruby  
   Selenium  
