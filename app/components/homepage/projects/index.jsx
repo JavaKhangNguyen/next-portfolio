@@ -1,12 +1,13 @@
 "use client";
-import { projectsData } from "@/utils/data/projects-data";
-import ProjectCard from "./project-card";
+import React from 'react';
 import { faAngleLeft, faAngleRight, faClipboardList } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { projectsData } from "@/utils/data/projects-data";
+import ProjectCard from "./project-card";
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';

@@ -1,12 +1,13 @@
 // @flow strict
 "use client";
-import { personalData } from "@/utils/data/personal-data";
+import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot, faPhoneVolume, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { motion } from "framer-motion";
+import { personalData } from "@/utils/data/personal-data";
 
 export default function ContactSection() {
   // Animation variants

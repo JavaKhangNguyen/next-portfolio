@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 const GlowCard = ({ children , identifier}) => {
   useEffect(() => {

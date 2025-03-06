@@ -1,3 +1,4 @@
+import React from "react";
 import { JetBrains_Mono } from "next/font/google";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
@@ -13,7 +14,7 @@ const jbmono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nguyen Phuc Khang",
-  description: "Hi! I'm Khang Nguyen, a software developer from HCMC, VN",
+  description: "Hi! I'm Nguyen Phuc Khang, a software developer from HCMC, VN",
 };
 
 export default function RootLayout({ children }) {

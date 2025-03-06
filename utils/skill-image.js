@@ -96,6 +96,7 @@ import redux from '@/app/assets/svg/skills/redux.svg';
 import remix from '@/app/assets/svg/skills/remix.svg';
 import ruby from '@/app/assets/svg/skills/ruby.svg';
 import rust from '@/app/assets/svg/skills/rust.svg';
+import sass from '@/app/assets/svg/skills/sass.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
 import selenium from '@/app/assets/svg/skills/selenium.svg';
@@ -320,8 +321,8 @@ export const skillsImage = (skill) => {
       return ruby;
     case 'rust': 
       return rust;
-    case 'solana':
-      return solana;
+    case 'sass':
+      return sass;
     case 'scikitlearn':
       return scikitlearn;
     case 'selenium':
@@ -332,6 +333,8 @@ export const skillsImage = (skill) => {
       return sketch;
     case 'sklearn':
       return scikitlearn;
+    case 'solana':
+      return solana;
     case 'sqlalchemy':
       return sqlalchemy;
     case 'streamlit':

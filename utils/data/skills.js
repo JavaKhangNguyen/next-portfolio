@@ -1,7 +1,7 @@
 export const skillsData = [
+  'Python',
   'JavaScript',
   'TypeScript',
-  'Python',
   'Java',
   'HTML',
   'CSS',
@@ -119,6 +119,7 @@ export const skillsData = [
   Redux  
   Ruby  
   Rust
+  Sass
   Selenium 
   Solana 
   shadcn  
