@@ -3,6 +3,7 @@ import adobeaudition from '@/app/assets/svg/skills/adobeaudition.svg';
 import alova from '@/app/assets/svg/skills/alova.svg';
 import afterEffects from '@/app/assets/svg/skills/after-effects.svg';
 import angular from '@/app/assets/svg/skills/angular.svg';
+import apache from '@/app/assets/svg/skills/apache.svg';
 import aurelia from '@/app/assets/svg/skills/aurelia.svg';
 import axios from '@/app/assets/svg/skills/axios.svg';
 import aws from '@/app/assets/svg/skills/aws.svg';
@@ -45,6 +46,8 @@ import git from '@/app/assets/svg/skills/git.svg';
 import go from '@/app/assets/svg/skills/go.svg';
 import graphql from '@/app/assets/svg/skills/graphql.svg';
 import haxe from '@/app/assets/svg/skills/haxe.svg';
+import haskell from '@/app/assets/svg/skills/haskell.svg';
+import heroku from '@/app/assets/svg/skills/heroku.svg';
 import html from '@/app/assets/svg/skills/html.svg';
 import illustrator from '@/app/assets/svg/skills/illustrator.svg';
 import ionic from '@/app/assets/svg/skills/ionic.svg';
@@ -56,8 +59,9 @@ import kotlin from '@/app/assets/svg/skills/kotlin.svg';
 import kubernetes from '@/app/assets/svg/skills/kubernetes.svg';
 import laravel from '@/app/assets/svg/skills/laravel.svg';
 import lightroom from '@/app/assets/svg/skills/lightroom.svg';
-import linux from '@/app/assets/svg/skills/linux.svg'
+import linux from '@/app/assets/svg/skills/linux.svg';
 import lottiefiles from '@/app/assets/svg/skills/lottiefiles.svg';
+import lua from '@/app/assets/svg/skills/lua.svg';
 import markdown from '@/app/assets/svg/skills/markdown.svg';
 import materialui from '@/app/assets/svg/skills/materialui.svg';
 import matlab from '@/app/assets/svg/skills/matlab.svg';
@@ -74,10 +78,12 @@ import nginx from '@/app/assets/svg/skills/nginx.svg';
 import numpy from '@/app/assets/svg/skills/numpy.svg';
 import opencv from '@/app/assets/svg/skills/opencv.svg';
 import pandas from '@/app/assets/svg/skills/pandas.svg';
+import perl from '@/app/assets/svg/skills/perl.svg';
 import photoshop from '@/app/assets/svg/skills/photoshop.svg';
 import php from '@/app/assets/svg/skills/php.svg';
 import picsart from '@/app/assets/svg/skills/picsart.svg';
 import postgresql from '@/app/assets/svg/skills/postgresql.svg';
+import postman from '@/app/assets/svg/skills/postman.svg';
 import preact from '@/app/assets/svg/skills/preact.svg';
 import premierepro from '@/app/assets/svg/skills/premierepro.svg';
 import python from '@/app/assets/svg/skills/python.svg';
@@ -85,13 +91,16 @@ import pytorch from '@/app/assets/svg/skills/pytorch.svg';
 import radix from '@/app/assets/svg/skills/radix.svg';
 import react from '@/app/assets/svg/skills/react.svg';
 import reason from '@/app/assets/svg/skills/reason.svg';
+import redis from '@/app/assets/svg/skills/redis.svg';
 import redux from '@/app/assets/svg/skills/redux.svg';
 import remix from '@/app/assets/svg/skills/remix.svg';
 import ruby from '@/app/assets/svg/skills/ruby.svg';
+import rust from '@/app/assets/svg/skills/rust.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
 import selenium from '@/app/assets/svg/skills/selenium.svg';
 import sketch from '@/app/assets/svg/skills/sketch.svg';
+import solana from '@/app/assets/svg/skills/solana.svg';
 import strapi from '@/app/assets/svg/skills/strapi.svg';
 import streamlit from '@/app/assets/svg/skills/streamlit.svg'
 import svelte from '@/app/assets/svg/skills/svelte.svg';
@@ -129,6 +138,8 @@ export const skillsImage = (skill) => {
       return alova
     case 'angular':
       return angular;
+    case 'apache':
+      return apache;
     case 'aurelia':
       return aurelia;
     case 'axios':
@@ -207,8 +218,12 @@ export const skillsImage = (skill) => {
       return go;
     case 'graphql':
       return graphql;
+    case 'haskell':
+      return haskell;
     case 'haxe':
       return haxe;
+    case 'heroku':
+      return heroku;
     case 'html':
       return html;
     case 'illustrator':
@@ -235,6 +250,8 @@ export const skillsImage = (skill) => {
       return linux;
     case 'lottiefiles':
       return lottiefiles;
+    case 'lua':
+      return lua;
     case 'markdown':
       return markdown;
     case 'materialui':
@@ -267,12 +284,16 @@ export const skillsImage = (skill) => {
       return opencv;
     case 'pandas':
       return pandas;
+    case 'perl':
+      return perl;
     case 'photoshop':
       return photoshop;
     case 'php':
       return php;
     case 'picsart':
       return picsart;
+    case 'postman':
+      return postman;
     case 'postgresql':
       return postgresql;
     case 'preact':
@@ -289,12 +310,18 @@ export const skillsImage = (skill) => {
       return react;
     case 'reason':
       return reason;
+    case 'redis':
+      return redis;
     case 'redux':
       return redux;
     case 'remix':
       return remix;
     case 'ruby':
       return ruby;
+    case 'rust': 
+      return rust;
+    case 'solana':
+      return solana;
     case 'scikitlearn':
       return scikitlearn;
     case 'selenium':

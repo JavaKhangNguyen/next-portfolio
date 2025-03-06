@@ -17,6 +17,7 @@ export const skillsData = [
   'FastAPI',
   'Figma',
   'Git',
+  'Postman',
   'Jira',
   'Confluence',
   'Vercel',
@@ -40,6 +41,7 @@ export const skillsData = [
   AlovaJS  
   Angular 
   Aurelia 
+  Apache
   AWS  
   BackboneJS
   Bitbucket  
@@ -72,8 +74,10 @@ export const skillsData = [
   Git  
   Gimp  
   Go  
-  Graphql  
+  Graphql
+  Haskell  
   Haxe  
+  Heroku
   HTML  
   Illustrator  
   Ionic  
@@ -85,6 +89,7 @@ export const skillsData = [
   Lightroom  
   Linux  
   LottieFiles  
+  Lua
   Markdown  
   MaterialUI  
   Matlab  
@@ -99,18 +104,23 @@ export const skillsData = [
   Numpy  
   NuxtJS  
   OpenCV  
+  Perl
   Photoshop  
   PHP  
   Picsart  
   PostgreSQL  
+  Postman
   Premiere Pro 
   Preact 
   Python  
   ReactJS 
-  Reason 
+  Reason
+  Redis 
   Redux  
   Ruby  
-  Selenium  
+  Rust
+  Selenium 
+  Solana 
   shadcn  
   Sketch  
   Svelte  
