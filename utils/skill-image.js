@@ -374,6 +374,5 @@ export const skillsImage = (skill) => {
       return wordpress;
     default:
       break;
-}
-
+  }
 }
