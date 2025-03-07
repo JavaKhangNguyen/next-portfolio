@@ -76,6 +76,7 @@ import nuxtJS from '@/app/assets/svg/skills/nuxtJS.svg';
 import netlify from '@/app/assets/svg/skills/netlify.svg';
 import nginx from '@/app/assets/svg/skills/nginx.svg';
 import numpy from '@/app/assets/svg/skills/numpy.svg';
+import odoo from '@/app/assets/svg/skills/odoo.svg';
 import opencv from '@/app/assets/svg/skills/opencv.svg';
 import pandas from '@/app/assets/svg/skills/pandas.svg';
 import perl from '@/app/assets/svg/skills/perl.svg';
@@ -281,6 +282,8 @@ export const skillsImage = (skill) => {
       return nuxtJS;
     case 'numpy':
       return numpy;
+    case 'odoo': 
+      return odoo;
     case 'opencv':
       return opencv;
     case 'pandas':

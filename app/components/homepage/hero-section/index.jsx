@@ -188,7 +188,7 @@ export default function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </CodeLine>
               <CodeLine delay={1.2} className="ml-4 lg:ml-8 mr-2">
-                <span className="text-white">skills: </span>
+                <span className="text-white">techStacks: </span>
                 <span className="text-gray-400">{`['`}</span>
                 {skillsData.map((skill, index) => (
                   <React.Fragment key={index}>
@@ -203,32 +203,20 @@ export default function HeroSection() {
                 <span className="text-gray-400">{"],"}</span>
               </CodeLine>
               <CodeLine delay={1.3}>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </CodeLine>
-              <CodeLine delay={1.4}>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  quickLearner:
-                </span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </CodeLine>
-              <CodeLine delay={1.5}>
                 <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">
                   hireable:
                 </span>
                 <span className="text-orange-400">{personalData.hirable}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
-              <CodeLine delay={1.6}>
+              <CodeLine delay={1.4}>
                 <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.currentEmployment}</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
-              <CodeLine delay={1.7}>
+              <CodeLine delay={1.5}>
                 <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">
                   expLevel:
                 </span>
@@ -236,10 +224,10 @@ export default function HeroSection() {
                 <span className="text-amber-300">{personalData.exp}</span>
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
-              <CodeLine delay={1.8} className="ml-4 lg:ml-8 mr-2">
+              <CodeLine delay={1.6} className="ml-4 lg:ml-8 mr-2">
                 {personalData.rolesOfInterest && (<RolesOfInterest roles={personalData.rolesOfInterest} />)}
               </CodeLine>
-              <CodeLine delay={1.9}>
+              <CodeLine delay={1.7}>
                 <span className="text-gray-400">{`};`}</span>
               </CodeLine>
             </motion.code>
