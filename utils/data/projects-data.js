@@ -52,14 +52,5 @@ export const projectsData = [
         tools: ['PyTorch (YOLO)', 'Streamlit'],
         role: 'AI Engineer',
         url: 'https://plant-classification.streamlit.app/',
-    },
-    {
-        id: 7,
-        name: 'Watermeter Reader',
-        description: "An AI system using OCR technology to read water meter numbers and calculate the water consumption of a household",
-        langs: ['Python'],
-        tools: ['PyTorch (YOLO)', 'Streamlit', 'OCR'],
-        role: 'AI Engineer',
-        url: 'https://ai4ia-watermeter.streamlit.app',
-    },
+    }
 ];
