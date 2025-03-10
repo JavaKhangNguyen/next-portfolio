@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import { CodeLine } from "./code-line";
 import { personalData } from "@/utils/data/personal-data";
 import { skillsData } from "@/utils/data/skills";
-import { RolesOfInterest } from "./roles";
+import { FieldsOfInterest } from "./fields";
 
 export default function HeroSection() {
   return (
@@ -225,7 +225,7 @@ export default function HeroSection() {
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
               <CodeLine delay={1.6} className="ml-4 lg:ml-8 mr-2">
-                {personalData.rolesOfInterest && (<RolesOfInterest roles={personalData.rolesOfInterest} />)}
+                {personalData.fieldsOfInterest && (<FieldsOfInterest fields={personalData.fieldsOfInterest} />)}
               </CodeLine>
               <CodeLine delay={1.7}>
                 <span className="text-gray-400">{`};`}</span>

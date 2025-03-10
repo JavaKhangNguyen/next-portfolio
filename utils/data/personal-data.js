@@ -12,5 +12,5 @@ export const personalData = {
   hirable: 'true',
   currentEmployment: 'Available',
   exp: 'Fresher',
-  rolesOfInterest: ['Frontend','Backend','Fullstack','AI']
+  fieldsOfInterest: ['Frontend','Backend','Fullstack','AI', 'DA', 'Game Dev']
 }

@@ -1,14 +1,14 @@
 import React from "react";
 
-export function RolesOfInterest({ roles }){
+export function FieldsOfInterest({ fields }){
   return (
     <>
-      <span className="text-sky-400">rolesOfInterests: </span>
+      <span className="text-sky-400">fieldsOfInterests: </span>
       <span className="text-gray-400">{`['`}</span>
-      {roles.map((role, index) => (
+      {fields.map((field, index) => (
         <React.Fragment key={index}>
-          <span className="text-amber-300">{role}</span>
-          {index < roles.length - 1 ? (
+          <span className="text-amber-300">{field}</span>
+          {index < fields.length - 1 ? (
             <span className="text-gray-400">{"', '"}</span>
           ) : (
             <span className="text-gray-400">{"'"}</span>
