@@ -138,8 +138,8 @@ export default function HeroSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <div className="h-[1px] w-full bg-amaranthus"></div>
-            <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
+            <div className="h-[1px] w-full bg-code-block-line-1"></div>
+            <div className="h-[1px] w-full bg-code-block-line-2"></div>
           </motion.div>
           <div className="px-4 lg:px-8 py-5">
             <div className="flex flex-row space-x-2">

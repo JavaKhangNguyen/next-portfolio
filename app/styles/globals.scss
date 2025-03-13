@@ -55,4 +55,10 @@
   .bg-section-line{
     @apply bg-gradient-to-r from-transparent via-violet-500 to-transparent
   }
+  .bg-code-block-line-1{
+    @apply bg-gradient-to-r from-transparent via-pink-500 to-violet-600
+  }
+  .bg-code-block-line-2{
+    @apply bg-gradient-to-r from-violet-600 to-transparent
+  }
 }
