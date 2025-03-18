@@ -1,6 +1,7 @@
 import adobeXd from '@/app/assets/svg/skills/adobe-xd.svg';
 import adobeaudition from '@/app/assets/svg/skills/adobeaudition.svg';
 import alova from '@/app/assets/svg/skills/alova.svg';
+import alpine from '@/app/assets/svg/skills/alpine.svg';
 import afterEffects from '@/app/assets/svg/skills/after-effects.svg';
 import angular from '@/app/assets/svg/skills/angular.svg';
 import apache from '@/app/assets/svg/skills/apache.svg';
@@ -57,6 +58,7 @@ import julia from '@/app/assets/svg/skills/julia.svg';
 import jira from '@/app/assets/svg/skills/jira.svg';
 import kotlin from '@/app/assets/svg/skills/kotlin.svg';
 import kubernetes from '@/app/assets/svg/skills/kubernetes.svg';
+import lit from '@/app/assets/svg/skills/lit.svg';
 import laravel from '@/app/assets/svg/skills/laravel.svg';
 import lightroom from '@/app/assets/svg/skills/lightroom.svg';
 import linux from '@/app/assets/svg/skills/linux.svg';
@@ -102,7 +104,9 @@ import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
 import selenium from '@/app/assets/svg/skills/selenium.svg';
 import sketch from '@/app/assets/svg/skills/sketch.svg';
+import solidJS from '@/app/assets/svg/skills/solidJS.svg';
 import solana from '@/app/assets/svg/skills/solana.svg';
+import stencil from '@/app/assets/svg/skills/stencil.svg';
 import strapi from '@/app/assets/svg/skills/strapi.svg';
 import streamlit from '@/app/assets/svg/skills/streamlit.svg'
 import svelte from '@/app/assets/svg/skills/svelte.svg';
@@ -138,6 +142,8 @@ export const skillsImage = (skill) => {
       return afterEffects;
     case 'alovajs':
       return alova
+    case 'alpinejs':
+      return alpine
     case 'angular':
       return angular;
     case 'apache':
@@ -250,6 +256,8 @@ export const skillsImage = (skill) => {
       return lightroom;
     case 'linux':
       return linux;
+    case 'lit':
+      return lit;
     case 'lottiefiles':
       return lottiefiles;
     case 'lua':
@@ -338,6 +346,10 @@ export const skillsImage = (skill) => {
       return scikitlearn;
     case 'solana':
       return solana;
+    case 'solidjs':
+      return solidJS;
+    case 'stencil':
+      return stencil;
     case 'sqlalchemy':
       return sqlalchemy;
     case 'streamlit':
