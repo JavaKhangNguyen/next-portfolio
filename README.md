@@ -146,3 +146,10 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 | `tailwind-scrollbar` |
 | `sass` |
 | `clsx` |
+| `autoprefixer` |
+| `postcss` |
+| **Code Quality & Formatting** |
+| `eslint` |
+| `eslint-config-next` |
+| `prettier` |
+| `prettier-plugin-tailwindcss` |
