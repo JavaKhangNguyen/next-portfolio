@@ -1,8 +1,6 @@
-# Demo :movie_camera:
+## Live preview: [npkhang.id.vn](https://npkhang.id.vn/)
 
 ![](./public/screen.png)
-
-## Live preview: [npkhang.id.vn](https://npkhang.id.vn/)
 
 ---
 
