@@ -61,4 +61,22 @@
   .bg-code-block-line-2{
     @apply bg-gradient-to-r from-violet-600 to-transparent
   }
+  .flag-responsive {
+    width: 16px; /* Default size (xs) */
+    height: auto;
+  }
+  
+  @media (min-width: 768px) { /* md breakpoint */
+    .flag-responsive {
+      width: 20px;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg breakpoint */
+    .flag-responsive {
+      width: 24px;
+      height: auto;
+    }
+  }
 }
