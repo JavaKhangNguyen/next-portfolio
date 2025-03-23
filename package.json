@@ -24,6 +24,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-fast-marquee": "^1.6.2",
+    "react-flagkit": "^2.0.4",
     "react-typed": "^2.0.12",
     "swiper": "^11.2.4",
     "tailwind-merge": "^3.0.2"

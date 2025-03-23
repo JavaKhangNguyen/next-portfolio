@@ -12,6 +12,7 @@ import { CodeLine } from "./code-line";
 import { personalData } from "@/utils/data/personal-data";
 import { skillsData } from "@/utils/data/skills";
 import { FieldsOfInterest } from "./fields";
+import { LangsOfComms } from "./langs";
 
 export default function HeroSection() {
   return (
@@ -188,7 +189,7 @@ export default function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </CodeLine>
               <CodeLine delay={1.2} className="ml-4 lg:ml-8 mr-2">
-                <span className="text-white">techStacks: </span>
+                <span className="text-white-300">techStacks: </span>
                 <span className="text-gray-400">{`['`}</span>
                 {skillsData.map((skill, index) => (
                   <React.Fragment key={index}>
@@ -202,12 +203,8 @@ export default function HeroSection() {
                 ))}
                 <span className="text-gray-400">{"],"}</span>
               </CodeLine>
-              <CodeLine delay={1.3}>
-                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">
-                  hireable:
-                </span>
-                <span className="text-orange-400">{personalData.hirable}</span>
-                <span className="text-gray-400">,</span>
+              <CodeLine delay={1.3} className="ml-4 lg:ml-8 mr-1">
+                {personalData.langs && (<LangsOfComms langs={personalData.langs} />)}
               </CodeLine>
               <CodeLine delay={1.4}>
                 <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
@@ -217,17 +214,20 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
-                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">
-                  expLevel:
-                </span>
+                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
+                <span className="text-orange-400">{personalData.hirable}</span>
+                <span className="text-gray-400">,</span>
+              </CodeLine>
+              <CodeLine delay={1.6}>
+                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">expLevel:</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.exp}</span>
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
-              <CodeLine delay={1.6} className="ml-4 lg:ml-8 mr-2">
+              <CodeLine delay={1.7} className="ml-4 lg:ml-8 mr-2">
                 {personalData.fieldsOfInterest && (<FieldsOfInterest fields={personalData.fieldsOfInterest} />)}
               </CodeLine>
-              <CodeLine delay={1.7}>
+              <CodeLine delay={1.8}>
                 <span className="text-gray-400">{`};`}</span>
               </CodeLine>
             </motion.code>
