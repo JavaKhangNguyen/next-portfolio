@@ -91,6 +91,7 @@ export const personalData = {
   github: 'https://github.com/JavaKhangNguyen',
   linkedIn: 'https://www.linkedin.com/in/ngpkhang/',
   resume: "https://drive.google.com/file/d/1c995VKOZevEF-ljHFgIYArpMvBQel7H2/view?usp=drive_link",
+  langs: ["VN", "GB"],
   hirable: 'true',
   currentEmployment: 'Available',
   exp: 'Fresher',
@@ -132,6 +133,7 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 | `framer-motion` |
 | `swiper` |
 | `react-fast-marquee` |
+| `react-flagkit` |
 | `react-typed` |
 | **Core Frameworks** |
 | `next` |
