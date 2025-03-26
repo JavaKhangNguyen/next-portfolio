@@ -18,6 +18,7 @@ import c from '@/app/assets/svg/skills/c.svg';
 import cakephp from '@/app/assets/svg/skills/cakephp.svg';
 import canva from '@/app/assets/svg/skills/canva.svg';
 import capacitorjs from '@/app/assets/svg/skills/capacitorjs.svg';
+import chartjs from '@/app/assets/svg/skills/chartjs.svg';
 import coffeescript from '@/app/assets/svg/skills/coffeescript.svg';
 import codeigniter from '@/app/assets/svg/skills/codeigniter.svg';
 import cplusplus from '@/app/assets/svg/skills/cplusplus.svg';
@@ -36,7 +37,8 @@ import elm from '@/app/assets/svg/skills/elm.svg';
 import ember from '@/app/assets/svg/skills/ember.svg';
 import express from '@/app/assets/svg/skills/express.svg';
 import fastify from '@/app/assets/svg/skills/fastify.svg';
-import fastapi from '@/app/assets/svg/skills/fastapi.svg'
+import fastapi from '@/app/assets/svg/skills/fastapi.svg';
+import feathers from '@/app/assets/svg/skills/feathers.svg';
 import figma from '@/app/assets/svg/skills/figma.svg';
 import firebase from '@/app/assets/svg/skills/firebase.svg';
 import flask from '@/app/assets/svg/skills/flask.svg';
@@ -56,12 +58,14 @@ import java from '@/app/assets/svg/skills/java.svg';
 import javascript from '@/app/assets/svg/skills/javascript.svg';
 import julia from '@/app/assets/svg/skills/julia.svg';
 import jira from '@/app/assets/svg/skills/jira.svg';
+import koa from '@/app/assets/svg/skills/koajs.svg';
 import kotlin from '@/app/assets/svg/skills/kotlin.svg';
 import kubernetes from '@/app/assets/svg/skills/kubernetes.svg';
 import lit from '@/app/assets/svg/skills/lit.svg';
 import laravel from '@/app/assets/svg/skills/laravel.svg';
 import lightroom from '@/app/assets/svg/skills/lightroom.svg';
 import linux from '@/app/assets/svg/skills/linux.svg';
+import loopback from '@/app/assets/svg/skills/loopback.svg';
 import lottiefiles from '@/app/assets/svg/skills/lottiefiles.svg';
 import lua from '@/app/assets/svg/skills/lua.svg';
 import markdown from '@/app/assets/svg/skills/markdown.svg';
@@ -104,6 +108,7 @@ import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
 import selenium from '@/app/assets/svg/skills/selenium.svg';
 import sketch from '@/app/assets/svg/skills/sketch.svg';
+import socket from '@/app/assets/svg/skills/socketio.svg';
 import solidJS from '@/app/assets/svg/skills/solidJS.svg';
 import solana from '@/app/assets/svg/skills/solana.svg';
 import stencil from '@/app/assets/svg/skills/stencil.svg';
@@ -178,6 +183,8 @@ export const skillsImage = (skill) => {
       return capacitorjs;
     case 'cakephp':
       return cakephp;
+    case 'chartjs':
+      return chartjs;
     case 'codeigniter':
       return codeigniter;
     case 'coffeescript':
@@ -208,6 +215,8 @@ export const skillsImage = (skill) => {
       return fastapi;
     case 'fastify':
       return fastify;
+    case 'feathersio':
+      return feathers
     case 'figma':
       return figma;
     case 'firebase':
@@ -246,6 +255,8 @@ export const skillsImage = (skill) => {
       return jira;
     case 'julia':
       return julia;
+    case 'koajs':
+      return koa;
     case 'kotlin':
       return kotlin;
     case 'kubernetes':
@@ -258,6 +269,8 @@ export const skillsImage = (skill) => {
       return linux;
     case 'lit':
       return lit;
+    case 'loopbackio':
+      return loopback;
     case 'lottiefiles':
       return lottiefiles;
     case 'lua':
@@ -344,6 +357,8 @@ export const skillsImage = (skill) => {
       return sketch;
     case 'sklearn':
       return scikitlearn;
+    case 'socketio':
+      return socket;
     case 'solana':
       return solana;
     case 'solidjs':

@@ -53,6 +53,7 @@ export const skillsData = [
   C++  
   Canva  
   CapacitorJs  
+  ChartJS
   Coffeescript  
   Confluence  
   CoreUI  
@@ -66,6 +67,7 @@ export const skillsData = [
   Express
   FastAPI  
   Fastify  
+  FeathersIO
   Figma  
   Firebase  
   Flask  
@@ -84,10 +86,12 @@ export const skillsData = [
   Java  
   Jira  
   Julia  
-  JavaScript  
+  JavaScript
+  KoaJS  
   Kotlin  
   Lightroom  
   Linux  
+  LoopbackIO
   LottieFiles  
   Lua
   Markdown  
@@ -103,7 +107,9 @@ export const skillsData = [
   Nginx  
   Numpy  
   NuxtJS  
-  OpenCV  
+  Odoo
+  OpenCV
+  Pandas  
   Perl
   Photoshop  
   PHP  
@@ -121,6 +127,7 @@ export const skillsData = [
   Rust
   Sass
   Selenium 
+  SocketIO
   Solana 
   shadcn  
   Sketch  
