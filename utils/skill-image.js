@@ -43,6 +43,7 @@ import figma from '@/app/assets/svg/skills/figma.svg';
 import firebase from '@/app/assets/svg/skills/firebase.svg';
 import flask from '@/app/assets/svg/skills/flask.svg';
 import flutter from '@/app/assets/svg/skills/flutter.svg';
+import gas from '@/app/assets/svg/skills/GAS.svg';
 import gcp from '@/app/assets/svg/skills/gcp.svg';
 import gimp from '@/app/assets/svg/skills/gimp.svg';
 import git from '@/app/assets/svg/skills/git.svg';
@@ -153,6 +154,8 @@ export const skillsImage = (skill) => {
       return angular;
     case 'apache':
       return apache;
+    case 'appsscript':
+        return gas;
     case 'aurelia':
       return aurelia;
     case 'axios':

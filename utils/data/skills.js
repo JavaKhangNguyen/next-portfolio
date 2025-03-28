@@ -2,9 +2,10 @@ export const skillsData = [
   'Python',
   'JavaScript',
   'TypeScript',
-  'Java',
   'HTML',
   'CSS',
+  'AppsScript',
+  'Java',
   'ReactJS',
   'NextJS',
   'ViteJS',
@@ -39,10 +40,13 @@ export const skillsData = [
   Adobe XD  
   After Effects  
   AlovaJS  
+  AlpineJS
   Angular 
   Aurelia 
   Apache
   AWS  
+  Axios
+  Azure
   BackboneJS
   Bitbucket  
   Blender  
@@ -52,6 +56,7 @@ export const skillsData = [
   C#  
   C++  
   Canva  
+  CakePHP
   CapacitorJs  
   ChartJS
   Coffeescript  
@@ -76,7 +81,8 @@ export const skillsData = [
   Git  
   Gimp  
   Go  
-  Graphql
+  Google Apps Script
+  GraphQL
   Haskell  
   Haxe  
   Heroku
@@ -84,13 +90,15 @@ export const skillsData = [
   Illustrator  
   Ionic  
   Java  
-  Jira  
-  Julia  
   JavaScript
+  Jira  
+  Julia 
   KoaJS  
   Kotlin  
+  Laravel
   Lightroom  
   Linux  
+  Lit
   LoopbackIO
   LottieFiles  
   Lua
@@ -105,6 +113,7 @@ export const skillsData = [
   Netlify  
   NextJS  
   Nginx  
+  NodeJS
   Numpy  
   NuxtJS  
   Odoo
@@ -116,25 +125,36 @@ export const skillsData = [
   Picsart  
   PostgreSQL  
   Postman
+  Preact
   Premiere Pro 
-  Preact 
-  Python  
+  Python
+  PyTorch
+  Radix  
   ReactJS 
   Reason
   Redis 
   Redux  
+  Remix
   Ruby  
   Rust
   Sass
+  Scikit-Learn
   Selenium 
-  SocketIO
-  Solana 
   shadcn  
   Sketch  
+  SocketIO
+  Solana 
+  SolidJS
+  SQLAlchemy
+  SQLite
+  Stencil
+  Strapi
+  Streamlit
   Svelte  
   Swift  
-  Tensorflow  
+  SwiperJS
   Tailwind  
+  Tensorflow  
   Typescript  
   Ubuntu  
   Unity  
@@ -143,7 +163,7 @@ export const skillsData = [
   Vitest  
   Vue  
   VuetifyJS  
-  Webex  
+  Webix  
   WolframAlpha  
   Wordpress  
 */

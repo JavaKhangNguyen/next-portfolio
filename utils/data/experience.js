@@ -1,6 +1,14 @@
 export const experiences = [
+  // {
+  //   id: 1,
+  //   title: "ServiceNow Developer",
+  //   company: "DXC Technology Vietnam",
+  //   duration: "04/2025 - Present",
+  //   logo: '/orgs/DXC.webp',
+  //   active: true
+  // },
   {
-    id: 1,
+    id: 2,
     title: "Front-end Developer (Intern)",
     company: "DigiEx Group",
     duration: "12/2024 - 02/2025",
@@ -8,7 +16,7 @@ export const experiences = [
     active: false
   },
   {
-    id: 2,
+    id: 3,
     title: 'Backend Developer (Part-time)',
     company: "AI4IA",
     duration: "06/2023 - 11/2024",
@@ -16,7 +24,7 @@ export const experiences = [
     active: false
   },
   {
-    id: 3,
+    id: 4,
     title: "IT Helpdesk (Part-time)",
     company: "International University",
     duration: "03/2021 - 11/2024",
