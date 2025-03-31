@@ -13,6 +13,7 @@ import { personalData } from "@/utils/data/personal-data";
 import { skillsData } from "@/utils/data/skills";
 import { FieldsOfInterest } from "./fields";
 import { LangsOfComms } from "./langs";
+import { Clock } from "./clock";
 
 export default function HeroSection() {
   return (
@@ -45,6 +46,7 @@ export default function HeroSection() {
             <br />
           </motion.h1>
 
+          {/* Logo section */}
           <motion.div
             className="my-5 flex items-center gap-5"
             initial={{ opacity: 0, y: 20 }}
@@ -73,6 +75,7 @@ export default function HeroSection() {
             </motion.div>
           </motion.div>
 
+          {/* Button section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -93,7 +96,6 @@ export default function HeroSection() {
                 <FontAwesomeIcon icon={faAddressCard} size="lg" className="ml-2" />
               </motion.button>
             </Link>
-
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 className="flex items-center gap-1 hover:gap-3 rounded-full uppercase bg-amaranthus hover:bg-candy px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-bold text-white no-underline transition-all ease-in-out duration-300 hover:text-white hover:no-underline md:font-extrabold"
@@ -107,7 +109,19 @@ export default function HeroSection() {
               </Link>
             </motion.div>
           </motion.div>
+
+          {/* Clock */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.5 }}
+            className="mt-8 flex items-center gap-3"
+          >
+            <Clock />
+          </motion.div>
         </motion.div>
+        
+        {/* Code block */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

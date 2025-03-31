@@ -13,20 +13,24 @@ export const skillsData = [
   'TailwindCSS',
   'MaterialUI',
   'CoreUI',
-  'SwiperJS',
-  'Axios',
-  'FastAPI',
+  'Motion',
   'Figma',
+  'FastAPI',
+  'Jupyter',
+  'Flask',
   'Git',
+  'Axios',
   'Postman',
-  'Jira',
-  'Confluence',
   'Vercel',
   'MySQL',
+  'SwiperJS',
   'LottieFiles',
   'OpenCV',
+  'Jira',
+  'Confluence',
   'Ubuntu',
   'Linux',
+  'Bash',
   'Nginx',
   'Streamlit'
 ]
@@ -42,12 +46,15 @@ export const skillsData = [
   AlovaJS  
   AlpineJS
   Angular 
+  Apache
+  Arch
   Aurelia 
   Apache
   AWS  
   Axios
   Azure
   BackboneJS
+  Bash
   Bitbucket  
   Blender  
   Bootstrap  
@@ -60,8 +67,10 @@ export const skillsData = [
   CapacitorJs  
   ChartJS
   Coffeescript  
+  Colab
   Confluence  
   CoreUI  
+  D3
   Dart  
   Deno  
   Docker 
@@ -73,12 +82,14 @@ export const skillsData = [
   FastAPI  
   Fastify  
   FeathersIO
+  Fedora
   Figma  
   Firebase  
   Flask  
   Flutter  
   GCP  
   Git  
+  GitLab
   Gimp  
   Go  
   Google Apps Script
@@ -87,12 +98,15 @@ export const skillsData = [
   Haxe  
   Heroku
   HTML  
+  Hugo
   Illustrator  
   Ionic  
   Java  
   JavaScript
   Jira  
   Julia 
+  Jupyter
+  Katalon
   KoaJS  
   Kotlin  
   Laravel
@@ -108,12 +122,15 @@ export const skillsData = [
   MemSQL  
   Meteor
   Microsoft Office  
-  MongoDB  
+  MomentJS
+  MongoDB
+  Motion
   MySQL  
   Netlify  
   NextJS  
   Nginx  
   NodeJS
+  NPM
   Numpy  
   NuxtJS  
   Odoo
@@ -130,6 +147,7 @@ export const skillsData = [
   Python
   PyTorch
   Radix  
+  Raspbian
   ReactJS 
   Reason
   Redis 
@@ -155,6 +173,7 @@ export const skillsData = [
   SwiperJS
   Tailwind  
   Tensorflow  
+  ThreeJS
   Typescript  
   Ubuntu  
   Unity  
@@ -166,4 +185,5 @@ export const skillsData = [
   Webix  
   WolframAlpha  
   Wordpress  
+  Yarn
 */
