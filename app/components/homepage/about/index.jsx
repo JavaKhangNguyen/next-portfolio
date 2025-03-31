@@ -8,31 +8,17 @@ import { motion } from "framer-motion";
 export default function AboutSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.2
-      }
-    }
+    visible: { opacity: 1, transition: { staggerChildren: 0.15, delayChildren: 0.2 }}
   };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.5, ease: "easeOut" }
-    }
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" }}
   };
 
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.95 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.5, ease: "easeOut" }
-    }
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: "easeOut" }}
   };
 
   return (
@@ -54,10 +40,7 @@ export default function AboutSection() {
           </motion.p>
         </motion.div>
         <motion.div className="flex justify-center order-1 lg:order-2" variants={imageVariants}>
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.8 }}
-          >
+          <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.8 }}>
             <Image
               src={personalData.profile}
               width={300}

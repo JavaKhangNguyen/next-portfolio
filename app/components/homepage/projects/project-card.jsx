@@ -42,10 +42,7 @@ export default function ProjectCard({ project }) {
               project.langs.map((tag, i) => (
                 <React.Fragment key={i}>
                   <span className="text-amber-300">{tag}</span>
-                  {
-                    project.langs?.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
-                  }
+                  { project.langs?.length - 1 !== i && <span className="text-gray-400">{`', '`}</span> } 
                 </React.Fragment>
               ))
             }
@@ -58,10 +55,7 @@ export default function ProjectCard({ project }) {
               project.tools.map((tag, i) => (
                 <React.Fragment key={i}>
                   <span className="text-amber-300">{tag}</span>
-                  {
-                    project.tools?.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
-                  }
+                  { project.tools?.length - 1 !== i && <span className="text-gray-400">{`', '`}</span>}
                 </React.Fragment>
               ))
             }

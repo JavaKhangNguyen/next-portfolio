@@ -65,9 +65,7 @@ export default function Experience() {
             transition={{ duration: 0.6 }}
             className="flex justify-center items-start"
           >
-            <div className="w-full h-full">
-              <AnimationLottie animationPath={experience} width='95%'/>
-            </div>
+            <div className="w-full h-full"><AnimationLottie animationPath={experience} width='95%'/></div>
           </motion.div>
 
           <motion.div
@@ -84,10 +82,7 @@ export default function Experience() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ 
-                      duration: 0.4,
-                      delay: index * 0.1 // Small staggered delay for each card
-                    }}
+                    transition={{ duration: 0.4, delay: index * 0.1 }}
                   >
                     <GlowCard identifier={`experience-${experience.id}`}>
                       <div className="p-3 relative">
@@ -102,20 +97,11 @@ export default function Experience() {
                             transition={{ type: "spring", stiffness: 400, damping: 10 }}
                             className="transition-all duration-300"
                           >
-                            <Image
-                              src={experience.logo}
-                              alt="IU"
-                              width={55}
-                              height={55}
-                            />
+                            <Image src={experience.logo} alt="IU" width={55} height={55} />
                           </motion.div>
                           <div>
-                            <p className="text-base sm:text-xl mb-2 font-medium">
-                              {experience.title}
-                            </p>
-                            <p className="text-sm sm:text-base">
-                              {experience.company}
-                            </p>
+                            <p className="text-base sm:text-xl mb-2 font-medium">{experience.title}</p>
+                            <p className="text-sm sm:text-base">{experience.company}</p>
                           </div>
                         </div>
                       </div>

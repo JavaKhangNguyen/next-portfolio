@@ -3,14 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLaptopCode,
-  faHouse,
-  faBriefcase,
-  faScrewdriverWrench,
-  faGraduationCap,
-  faClipboardList
-} from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faHouse, faBriefcase, faScrewdriverWrench, faGraduationCap, faClipboardList } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
@@ -20,35 +13,17 @@ export default function Navbar() {
   // Animation variants
   const logoVariants = {
     hidden: { opacity: 0, x: -20 },
-    visible: { 
-      opacity: 1, 
-      x: 0,
-      transition: { duration: 0.8 }
-    }
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8 }}
   };
 
   const navItemVariants = {
     hidden: { opacity: 0, y: -10 },
-    visible: (custom) => ({
-      opacity: 1,
-      y: 0,
-      transition: { 
-        duration: 0.3,
-        delay: custom * 0.05,
-      }
-    })
+    visible: (custom) => ({ opacity: 1, y: 0, transition: { duration: 0.3, delay: custom * 0.05 }})
   };
 
   const container = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.05,
-        delayChildren: 0.3,
-        when: "beforeChildren"
-      }
-    }
+    visible: { opacity: 1, transition: { staggerChildren: 0.05, delayChildren: 0.3, when: "beforeChildren" }}
   };
 
   // Smooth scroll function
@@ -66,10 +41,7 @@ export default function Navbar() {
     const element = document.getElementById(targetId);
     
     if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       
       // Update URL without reload
       window.history.pushState({}, '', href);

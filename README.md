@@ -134,6 +134,7 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 | `swiper` |
 | `react-fast-marquee` |
 | `react-flagkit` |
+| `react-github-calendar` |
 | `react-typed` |
 | **Core Frameworks** |
 | `next` |

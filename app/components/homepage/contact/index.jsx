@@ -13,14 +13,7 @@ export default function ContactSection() {
   // Animation variants
   const sectionVariants = {
     hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1,
-      transition: { 
-        when: "beforeChildren", 
-        staggerChildren: 0.1,
-        duration: 0.2 
-      } 
-    }
+    visible: { opacity: 1, transition: { when: "beforeChildren", staggerChildren: 0.1, duration: 0.2 }}
   };
   
   const titleVariants = {

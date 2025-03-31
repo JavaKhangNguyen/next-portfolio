@@ -39,12 +39,7 @@ export default function HeroSection() {
           >
             Hi! I am{" "}
             <span className="bg-nemesia text-transparent bg-clip-text">
-              <ReactTyped
-                strings={[personalData.name]}
-                typeSpeed={30}
-                backSpeed={50}
-                loop
-              />
+              <ReactTyped strings={[personalData.name]} typeSpeed={30} backSpeed={50} loop />
             </span>
             <br />
           </motion.h1>
@@ -94,11 +89,7 @@ export default function HeroSection() {
                 className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] hover:bg-candy rounded-full border-none text-center md:text-sm font-extrabold uppercase text-[#ffff] no-underline transition-all duration-200 ease-out md:font-bold flex items-center gap-1 hover:gap-2"
               >
                 <span>Contact me</span>
-                <FontAwesomeIcon
-                  icon={faAddressCard}
-                  size="lg"
-                  className="ml-2"
-                />
+                <FontAwesomeIcon icon={faAddressCard} size="lg" className="ml-2" />
               </motion.button>
             </Link>
 
@@ -111,12 +102,7 @@ export default function HeroSection() {
                 href={personalData.resume}
               >
                 <span>Download CV</span>
-                <FontAwesomeIcon
-                  icon={faFileArrowDown}
-                  size="lg"
-                  className="ml-2"
-                  bounce
-                />
+                <FontAwesomeIcon icon={faFileArrowDown} size="lg" className="ml-2" bounce/>
               </Link>
             </motion.div>
           </motion.div>
@@ -225,7 +211,7 @@ export default function HeroSection() {
                 <span className="text-gray-400">{"'"}</span>
               </CodeLine>
               <CodeLine delay={1.7} className="ml-4 lg:ml-8 mr-2">
-                {personalData.fieldsOfInterest && (<FieldsOfInterest fields={personalData.fieldsOfInterest} />)}
+                {personalData.fieldsOfInterest && (<FieldsOfInterest fields={personalData.fieldsOfInterest}/>)}
               </CodeLine>
               <CodeLine delay={1.8}>
                 <span className="text-gray-400">{`};`}</span>

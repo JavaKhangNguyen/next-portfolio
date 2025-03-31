@@ -14,47 +14,22 @@ export default function Education() {
   // Animation variants
   const sectionVariants = {
     hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1,
-      transition: { 
-        duration: 0.3,
-        when: "beforeChildren",
-      }
-    }
+    visible: { opacity: 1, transition: { duration: 0.3, when: "beforeChildren"}}
   };
 
   const headerVariants = {
     hidden: { y: -20, opacity: 0 },
-    visible: { 
-      y: 0, 
-      opacity: 1,
-      transition: { 
-        duration: 0.5,
-      }
-    }
+    visible: { y: 0, opacity: 1, transition: { duration: 0.5 }}
   };
 
   const lottieVariants = {
     hidden: { opacity: 0, scale: 0.9 },
-    visible: { 
-      opacity: 1, 
-      scale: 1,
-      transition: { 
-        duration: 0.6,
-      }
-    }
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.6 }}
   };
 
   const educationCardVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: (custom) => ({ 
-      opacity: 1, 
-      y: 0,
-      transition: { 
-        duration: 0.5,
-        delay: custom * 0.1 
-      }
-    })
+    visible: (custom) => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: custom * 0.1 }})
   };
 
   return (
@@ -93,24 +68,15 @@ export default function Education() {
 
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-5 my-5 lg:gap-16">
-          <motion.div 
-            className="flex justify-center items-start"
-            variants={lottieVariants}
-          >
-            <div className="w-3/4 h-3/4">
-              <AnimationLottie animationPath={lottieFile} width='95%'/>
-            </div>
+          <motion.div className="flex justify-center items-start" variants={lottieVariants}>
+            <div className="w-3/4 h-3/4"><AnimationLottie animationPath={lottieFile} width='95%'/></div>
           </motion.div>
 
           <div>
             <div className="flex flex-col gap-6">
               {
                 educations.map((education, index) => (
-                  <motion.div
-                    key={education.id}
-                    custom={index}
-                    variants={educationCardVariants}
-                  >
+                  <motion.div key={education.id} custom={index} variants={educationCardVariants}>
                     <GlowCard identifier={`education-${education.id}`}>
                       <div className="p-3 relative text-white">
                         <Image
@@ -122,9 +88,7 @@ export default function Education() {
                           className="absolute bottom-0 opacity-80"
                         />
                         <div className="flex justify-center">
-                          <p className="text-sm sm:text-lg text-secondary font-bold">
-                            {education.duration}
-                          </p>
+                          <p className="text-sm sm:text-lg text-secondary font-bold">{education.duration}</p>
                         </div>
                         <div className="flex items-center gap-x-8 px-3 py-5">
                           <motion.div 
@@ -140,9 +104,7 @@ export default function Education() {
                             />
                           </motion.div>
                           <div>
-                            <p className="text-sm sm:text-xl mb-2 font-medium uppercase">
-                              {education.title}
-                            </p>
+                            <p className="text-sm sm:text-xl mb-2 font-medium uppercase">{education.title}</p>
                             <p className="text-xs sm:text-base">{education.institution}</p>
                           </div>
                         </div>
