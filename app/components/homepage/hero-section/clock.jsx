@@ -14,7 +14,7 @@ export function Clock(){
   const formatDate = (date) => {
     if (!date) return '';
     
-    const day = date.getDate().toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(1, '0');
     const month = date.getMonth() + 1; 
     const year = date.getFullYear();
     const hours = date.getHours().toString().padStart(2, '0');
