@@ -204,13 +204,15 @@ export default function HeroSection() {
                 ))}
                 <span className="text-gray-400">{"],"}</span>
               </CodeLine>
-              <CodeLine delay={1.3}>
-                <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-amber-300">{personalData.currentEmployment}</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-gray-400">,</span>
-              </CodeLine>
+              {personalData.currentEmployment && (
+                <CodeLine delay={1.3}>
+                  <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
+                  <span className="text-gray-400">{"'"}</span>
+                  <span className="text-amber-300">{personalData.currentEmployment}</span>
+                  <span className="text-gray-400">{"'"}</span>
+                  <span className="text-gray-400">,</span>
+                </CodeLine>
+              )}
               <CodeLine delay={1.4}>
                 <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
                 <span className="text-orange-400">{personalData.hirable}</span>
