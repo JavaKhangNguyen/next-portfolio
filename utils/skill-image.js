@@ -104,8 +104,11 @@ import php from '@/app/assets/svg/skills/php.svg';
 import picsart from '@/app/assets/svg/skills/picsart.svg';
 import postgresql from '@/app/assets/svg/skills/postgresql.svg';
 import postman from '@/app/assets/svg/skills/postman.svg';
+import powerbi from '@/app/assets/svg/skills/powerbi.svg';
+import powershell from '@/app/assets/svg/skills/powershell.svg';
 import preact from '@/app/assets/svg/skills/preact.svg';
 import premierepro from '@/app/assets/svg/skills/premierepro.svg';
+import prisma from '@/app/assets/svg/skills/prisma.svg';
 import python from '@/app/assets/svg/skills/python.svg';
 import pytorch from '@/app/assets/svg/skills/pytorch.svg';
 import radix from '@/app/assets/svg/skills/radix.svg';
@@ -361,12 +364,18 @@ export const skillsImage = (skill) => {
       return picsart;
     case 'postman':
       return postman;
+    case 'powerbi':
+      return powerbi;
+    case 'powershell':
+      return powershell;
     case 'postgresql':
       return postgresql;
     case 'preact':
       return preact;
     case 'premiere pro':
       return premierepro;
+    case 'prisma':
+      return prisma;
     case 'pytorch':
       return pytorch;
     case 'python':

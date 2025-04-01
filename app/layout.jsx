@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import { config } from '@fortawesome/fontawesome-svg-core';
+import { personalData } from "@/utils/data/personal-data";
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -13,8 +14,8 @@ config.autoAddCss = false
 const jbmono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nguyen Phuc Khang",
-  description: "Hi! I'm Nguyen Phuc Khang, a software developer from HCMC, VN",
+  title: personalData.name,
+  description: personalData.description,
 };
 
 export default function RootLayout({ children }) {

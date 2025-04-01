@@ -19,20 +19,16 @@ export const skillsData = [
   'Jupyter',
   'Flask',
   'Git',
-  'Axios',
   'Postman',
   'Vercel',
   'MySQL',
   'SwiperJS',
   'LottieFiles',
   'OpenCV',
-  'Jira',
-  'Confluence',
   'Ubuntu',
-  'Linux',
-  'Bash',
   'Nginx',
-  'Streamlit'
+  'Streamlit',
+  // 'PowerBI'
 ]
 
 // AVAILABLE SKILLS
@@ -142,8 +138,11 @@ export const skillsData = [
   Picsart  
   PostgreSQL  
   Postman
+  PowerBI
+  PowerShell
   Preact
   Premiere Pro 
+  Prisma
   Python
   PyTorch
   Radix  
