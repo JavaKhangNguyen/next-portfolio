@@ -1,8 +1,8 @@
 // @flow strict
-import React from "react";
-import Link from "next/link";
+import React from "react"
+import Link from "next/link"
 
-function page() {
+export default function page() {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-center">
       <h1 className="text-6xl font-bold text-gray-800 dark:text-gray-100">404</h1>
@@ -17,7 +17,5 @@ function page() {
         Go to Home
       </Link>
     </div>
-  );
-};
-
-export default page;
+  )
+}

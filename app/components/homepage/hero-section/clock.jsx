@@ -38,4 +38,4 @@ export function Clock(){
   return (
     <div className="text-lg font-semibold text-center">{date ? `${getDayOfWeek(date)} ${formatDate(date)}` : ''}</div>
   );
-};
+}
