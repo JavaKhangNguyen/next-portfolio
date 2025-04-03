@@ -1,7 +1,7 @@
 version: "1.0"
 ide: QDJS
 profile:
-    name: qodana.recommended
+  name: qodana.recommended
 include:
     - name: Eslint
 inspections:
