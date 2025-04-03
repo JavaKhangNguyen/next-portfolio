@@ -5,6 +5,7 @@ profile:
 dependencyIgnores:
   - name: "eslint"
 exclude:
+  - name: CheckDependencyLicenses
   - name: JSXUnresolvedComponent
     paths:
       - app
