@@ -1,9 +1,0 @@
-name: "My Portfolio check"
-
-baseProfile: qodana.recommended
-
-inspections:
-  - group: JSXUnresolvedComponent
-    enabled: false
-  - group: All
-    severity: WARNING
