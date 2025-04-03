@@ -2,8 +2,8 @@ version: "1.0"
 ide: QDJS
 profile:
   name: qodana.starter
-dependencyIgnores:
-  - name: "eslint"
+include:
+    - name: Eslint
 exclude:
   - name: JSXUnresolvedComponent
     paths:
