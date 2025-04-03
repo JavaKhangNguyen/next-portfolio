@@ -1,19 +1,15 @@
 version: "1.0"
 ide: QDJS
 profile:
-  name: qodana.starter
+    name: qodana.recommended
 include:
     - name: Eslint
+inspections:
+  - inspection: JSXUnresolvedComponent
+    enabled: false
+  - inspection: All
+    severity: WARNING
 exclude:
-  - name: JSXUnresolvedComponent
-    paths:
-      - app
-      - utils
-      - eslint.config.mjs
-      - next.config.js
-      - postcss.config.js
-      - tailwind.config.js
-
   - name: All
     paths:
       - utils
