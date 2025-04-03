@@ -1,14 +1,9 @@
 version: "1.0"
 ide: QDJS
 profile:
-  name: qodana.recommended
+  path: qodana-profile.yaml
 include:
     - name: Eslint
-inspections:
-  - inspection: JSXUnresolvedComponent
-    enabled: false
-  - inspection: All
-    severity: WARNING
 exclude:
   - name: All
     paths:
