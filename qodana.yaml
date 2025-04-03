@@ -2,8 +2,6 @@ version: "1.0"
 ide: QDJS
 profile:
   name: qodana.recommended
-dependencyIgnores:
-  - name: "eslint"
 exclude:
   - name: CheckDependencyLicenses
   - name: JSXUnresolvedComponent
