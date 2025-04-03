@@ -20,7 +20,13 @@ export function Clock(){
     const hours = date.getHours().toString().padStart(2, '0');
     const minutes = date.getMinutes().toString().padStart(2, '0');
     const seconds = date.getSeconds().toString().padStart(2, '0');
-    return `${day}/${month}/${year}, ${hours}:${minutes}:${seconds}`;
+    const timezoneOffset = -date.getTimezoneOffset();
+    const timezoneHours = Math.floor(Math.abs(timezoneOffset) / 60);
+    const timezoneMinutes = Math.abs(timezoneOffset) % 60;
+    const timezoneSign = timezoneOffset >= 0 ? '+' : '-';
+    const timezone = `GMT${timezoneSign}${timezoneHours}${timezoneMinutes > 0 ? ':' + timezoneMinutes.toString().padStart(2, '0') : ''}`;
+
+    return `${day}/${month}/${year}, ${hours}:${minutes}:${seconds} ${timezone}`;
   };
   
   const getDayOfWeek = (date) => {
