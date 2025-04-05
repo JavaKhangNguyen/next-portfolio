@@ -32,16 +32,11 @@
 
 # Installation :arrow_down:
 
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
+### You will need to download Node to run this project
 - [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
 
 ```bash
 node --version
-git --version
 ```
 
 ## <br />
@@ -50,7 +45,7 @@ git --version
 
 ### Clone the repo
 
-To Clone the repo, use this command, or just simple press the DownloadZIP button inside the Code menu in the Code section of the repository
+To Clone the repo, use this command, or just simply press the DownloadZIP button inside the Code menu in the Code section of the repository
 
 ```bash
 git clone https://github.com/JavaKhangNguyen/next-portfolio.git
