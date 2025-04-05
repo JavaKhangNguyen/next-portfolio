@@ -43,7 +43,7 @@ export default function Education() {
     >
       <Image
         src="/section.svg"
-        loading="lazy"
+        priority={false}
         alt="Education"
         width={1572}
         height={1572}

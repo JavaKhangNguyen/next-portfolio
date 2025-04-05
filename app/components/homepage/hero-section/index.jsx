@@ -23,7 +23,7 @@ export default function HeroSection() {
           alt="Hero"
           width={1572}
           height={1572}
-          loading="lazy"
+          priority 
           className="absolute -top-[98px] -z-10"
       />
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-5">

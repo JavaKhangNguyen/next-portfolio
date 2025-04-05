@@ -19,6 +19,7 @@ export default function Experience() {
         alt="Hero"
         width={1572}
         height={795}
+        priority={false}
         className="absolute top-0 -z-10"
       />
 
