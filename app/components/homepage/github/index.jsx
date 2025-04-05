@@ -5,6 +5,7 @@ import GitHubCalendar from 'react-github-calendar';
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { personalData } from "@/utils/data/personal-data";
 
 export default function GitHubGraph(){
     const sectionVariants = {
@@ -90,7 +91,7 @@ export default function GitHubGraph(){
             </div>
             <motion.div className="flex justify-center w-full my-12" variants={calendarVariants}>
                 <GitHubCalendar
-                    username="JavaKhangNguyen"
+                    username={personalData.github}
                     blockSize={blockSize}
                     blockMargin={blockMargin}
                     fontSize={fontSize}

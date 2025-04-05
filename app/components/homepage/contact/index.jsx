@@ -121,9 +121,9 @@ export default function ContactSection() {
                 whileHover="hover"
               >
                 <Link
-                  href={personalData.github}
+                  href={`https://github.com/${personalData.github}`}
                   target='_blank'
-                  aria-label="Github"
+                  aria-label="GitHub"
                   className="text-teal-300 hover:!text-white"
                 >
                   <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -134,7 +134,7 @@ export default function ContactSection() {
                 whileHover="hover"
               >
                 <Link
-                  href={personalData.linkedIn}
+                  href={`https://www.linkedin.com/in/${personalData.linkedIn}`}
                   target='_blank'
                   aria-label="LinkedIn"
                   className="text-teal-300 hover:text-linkedin"

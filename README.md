@@ -21,19 +21,20 @@
 # Sections :bookmark:
 
 - Hero Section
-- ABOUT ME
+- About Me
 - Experience
 - Tech Stacks (Skills)
 - Projects
 - Education
+- Certifications
+- GitHub Contributions
 - Contacts
 
 ---
 
 # Installation :arrow_down:
 
-### You will need to download Node to run this project
-- [Node](https://nodejs.org/en/download/)
+### You will need to download [Node](https://nodejs.org/en/download/) to run this project
 
 ```bash
 node --version
@@ -84,8 +85,8 @@ export const personalData = {
   email: 'khang2073@gmail.com',
   phone: '+84913324868',
   address: 'Ho Chi Minh City, VN',
-  github: 'https://github.com/JavaKhangNguyen',
-  linkedIn: 'https://www.linkedin.com/in/ngpkhang/',
+  github: 'JavaKhangNguyen',
+  linkedIn: 'ngpkhang',
   resume: "https://drive.google.com/file/d/1c995VKOZevEF-ljHFgIYArpMvBQel7H2/view?usp=drive_link",
   langs: ["VN", "GB"], // For the langs key, make sure to check available keys from react-flagkit when inputting data here
   hirable: 'true',
