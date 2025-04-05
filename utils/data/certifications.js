@@ -5,7 +5,7 @@ export const certificates = [
         time: '11/2024'
     },
     {
-        img: '/certs/TensorFlow Dev.webp',
+        img: '/certs/Tensorflow Dev.webp',
         title: 'DeepLearning.AI TensorFlow Developer',
         time: '06/2023'
     },
