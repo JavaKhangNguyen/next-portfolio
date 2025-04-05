@@ -21,6 +21,7 @@ export const skillsData = [
   'MySQL',
   'SwiperJS',
   'LottieFiles',
+  // 'ServiceNow',
   'Ubuntu',
   'Nginx',
   'Streamlit',
@@ -153,7 +154,9 @@ export const skillsData = [
   Sass
   Scikit-Learn
   Selenium 
+  ServiceNow
   shadcn  
+  Shopify
   Sketch  
   SocketIO
   Solana 

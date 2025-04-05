@@ -122,7 +122,9 @@ import ruby from '@/app/assets/svg/skills/ruby.svg';
 import rust from '@/app/assets/svg/skills/rust.svg';
 import sass from '@/app/assets/svg/skills/sass.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
+import servicenow from '@/app/assets/svg/skills/servicenow.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
+import shopify from '@/app/assets/svg/skills/shopify.svg';
 import selenium from '@/app/assets/svg/skills/selenium.svg';
 import sketch from '@/app/assets/svg/skills/sketch.svg';
 import socket from '@/app/assets/svg/skills/socketio.svg';
@@ -404,8 +406,12 @@ export const skillsImage = (skill) => {
       return scikitlearn;
     case 'selenium':
       return selenium;
+    case 'servicenow':
+      return servicenow;
     case 'shadcn':
       return shadcn;
+    case 'shopify':
+      return shopify;
     case 'sketch':
       return sketch;
     case 'sklearn':
