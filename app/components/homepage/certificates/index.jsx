@@ -86,7 +86,7 @@ const Certifications = () => {
                       fill
                       sizes="(max-width: 768px) 100vw, 80vw"
                       className="object-contain"
-                      priority={index === 0}
+                      priority={false}
                     />
                   </div>
                 </div>
