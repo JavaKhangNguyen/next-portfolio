@@ -55,7 +55,7 @@ export default function HeroSection() {
           >
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href={personalData.github}
+                href={`https://github.com/${personalData.github}`}
                 target="_blank"
                 aria-label="GitHub"
                 className="transition-all text-teal-300 hover:!text-white duration-300 ease-in-out"
@@ -65,7 +65,7 @@ export default function HeroSection() {
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href={personalData.linkedIn}
+                href={`https://www.linkedin.com/in/${personalData.linkedIn}`}
                 target="_blank"
                 aria-label="LinkedIn"
                 className="transition-all text-teal-300 hover:text-linkedin duration-300 ease-in-out"
