@@ -57,6 +57,7 @@ const Certifications = () => {
           onClick={() => swiperRef.current?.swiper.slidePrev()}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          aria-label="Previous certificate"
         >
           <FontAwesomeIcon icon={faAngleLeft} size="lg" />
         </motion.button>
@@ -103,6 +104,7 @@ const Certifications = () => {
           onClick={() => swiperRef.current?.swiper.slideNext()}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          aria-label="Next certificate"
         >
           <FontAwesomeIcon icon={faAngleRight} size="lg" />
         </motion.button>

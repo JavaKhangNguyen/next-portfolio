@@ -52,6 +52,7 @@ const Projects = () => {
           onClick={() => swiperRef.current?.swiper.slidePrev()}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          aria-label="Previous project"
         >
           <FontAwesomeIcon icon={faAngleLeft} size="lg" />
         </motion.button>
@@ -82,6 +83,7 @@ const Projects = () => {
           onClick={() => swiperRef.current?.swiper.slideNext()}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          aria-label="Next project"
         >
           <FontAwesomeIcon icon={faAngleRight} size="lg" />
         </motion.button>
