@@ -2,6 +2,7 @@ version: "1.0"
 ide: QDJS
 profile:
   name: qodana.recommended
+bootstrap: npm install
 exclude:
   - name: CheckDependencyLicenses
   - name: JSXUnresolvedComponent
