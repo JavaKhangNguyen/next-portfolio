@@ -1,12 +1,12 @@
 export const experiences = [
-  // {
-  //   id: 1,
-  //   title: "ServiceNow Developer",
-  //   company: "DXC Technology Vietnam",
-  //   duration: "04/2025 - Present",
-  //   logo: '/orgs/DXC.webp',
-  //   active: true
-  // },
+  {
+    id: 1,
+    title: "Analyst II Software Engineering",
+    company: "DXC Technology Vietnam",
+    duration: "04/2025 - Present",
+    logo: '/orgs/DXC.webp',
+    active: true
+  },
   {
     id: 2,
     title: "Front-end Developer (Intern)",

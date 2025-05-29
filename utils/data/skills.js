@@ -21,11 +21,11 @@ export const skillsData = [
   'MySQL',
   'SwiperJS',
   'LottieFiles',
-  // 'ServiceNow',
+  'ServiceNow',
   'Ubuntu',
   'Nginx',
   'Streamlit',
-  // 'PowerBI'
+  'PowerBI'
 ]
 
 // AVAILABLE SKILLS
