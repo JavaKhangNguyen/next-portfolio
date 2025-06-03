@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "Analyst II Software Engineering",
     company: "DXC Technology",
-    duration: "04/2025 - Present",
+    duration: "06/2025 - Present",
     logo: '/orgs/DXC.webp',
     active: true
   },
