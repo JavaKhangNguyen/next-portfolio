@@ -121,6 +121,7 @@ import remix from '@/app/assets/svg/skills/remix.svg';
 import ruby from '@/app/assets/svg/skills/ruby.svg';
 import rust from '@/app/assets/svg/skills/rust.svg';
 import sass from '@/app/assets/svg/skills/sass.svg';
+import salesforce from '@/app/assets/svg/skills/salesforce.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import servicenow from '@/app/assets/svg/skills/servicenow.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
@@ -400,6 +401,8 @@ export const skillsImage = (skill) => {
       return ruby;
     case 'rust': 
       return rust;
+    case 'salesforce':
+      return salesforce;
     case 'sass':
       return sass;
     case 'scikitlearn':

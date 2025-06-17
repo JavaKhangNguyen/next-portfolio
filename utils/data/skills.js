@@ -152,6 +152,7 @@ export const skillsData = [
   Ruby  
   Rust
   Sass
+  SalesForce
   Scikit-Learn
   Selenium 
   ServiceNow
