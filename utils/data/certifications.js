@@ -1,5 +1,10 @@
 export const certificates = [
     {
+        img: '/certs/ServiceNow ITSM.webp',
+        title: 'ServiceNow Certified Implementation Specialist - ITSM',
+        time: '10/2025'
+    },
+    {
         img: '/certs/ServiceNow CAD.webp',
         title: 'ServiceNow Certified Application Developer',
         time: '07/2025'

@@ -6,4 +6,11 @@ export const educations = [
     institution: "International University - VNU HCM",
     logo :"/orgs/IU.webp"
   },
+  {
+    id: 2,
+    title: "Data Analyst Specialization",
+    duration: "03/2025 - 09/2025",
+    institution: "CodeGym",
+    logo :"/orgs/CG.webp"
+  },
 ]
