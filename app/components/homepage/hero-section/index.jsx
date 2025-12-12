@@ -219,9 +219,9 @@ export default function HeroSection() {
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
-                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">expLevel:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">roleTitle:</span>
                 <span className="text-gray-400">{"'"}</span>
-                <span className="text-amber-300">{personalData.exp}</span>
+                <span className="text-amber-300">{personalData.roleTitle}</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
