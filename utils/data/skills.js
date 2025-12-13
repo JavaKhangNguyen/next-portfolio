@@ -1,15 +1,14 @@
 export const skillsData = [
   'JavaScript',
   'TypeScript',
-  'Python',
   'AppsScript',
-  'Java',
+  'Python',
   'ServiceNow',
-  'ReactJS',
   'NextJS',
-  'ViteJS',
-  'NodeJS',
+  'ReactJS',
+  'Vite',
   'TailwindCSS',
+  'NodeJS',
   'MaterialUI',
   'CoreUI',
   'Motion',
@@ -21,11 +20,15 @@ export const skillsData = [
   'Vercel',
   'MySQL',
   'SwiperJS',
+  'ChartJS',
   'LottieFiles',
   'Ubuntu',
   'Nginx',
   'Streamlit',
-  'PowerBI'
+  'Pandas',
+  'Microsoft Office',
+  'PowerBI',
+  'PowerShell'
 ]
 
 // AVAILABLE SKILLS
@@ -41,8 +44,8 @@ export const skillsData = [
   Angular 
   Apache
   Arch
+  Astro
   Aurelia 
-  Apache
   AWS  
   Axios
   Azure
@@ -66,7 +69,8 @@ export const skillsData = [
   D3
   Dart  
   Deno  
-  Docker 
+  Docker
+  DiscordJS 
   Django 
   Ember
   ElectronJS
@@ -151,6 +155,7 @@ export const skillsData = [
   Remix
   Ruby  
   Rust
+  SAP
   Sass
   SalesForce
   Scikit-Learn
@@ -170,14 +175,14 @@ export const skillsData = [
   Svelte  
   Swift  
   SwiperJS
-  Tailwind  
+  TailwindCSS  
   Tensorflow  
   ThreeJS
   Typescript  
   Ubuntu  
   Unity  
   Vercel  
-  ViteJS  
+  Vite  
   Vitest  
   Vue  
   VuetifyJS  

@@ -6,6 +6,7 @@ import afterEffects from '@/app/assets/svg/skills/after-effects.svg';
 import angular from '@/app/assets/svg/skills/angular.svg';
 import apache from '@/app/assets/svg/skills/apache.svg';
 import arch from '@/app/assets/svg/skills/arch.svg';
+import astro from '@/app/assets/svg/skills/astro.svg';
 import aurelia from '@/app/assets/svg/skills/aurelia.svg';
 import axios from '@/app/assets/svg/skills/axios.svg';
 import aws from '@/app/assets/svg/skills/aws.svg';
@@ -32,6 +33,7 @@ import coreui from '@/app/assets/svg/skills/coreui.svg';
 import d3 from '@/app/assets/svg/skills/d3.svg';
 import dart from '@/app/assets/svg/skills/dart.svg';
 import deno from '@/app/assets/svg/skills/deno.svg';
+import discordjs from '@/app/assets/svg/skills/discordjs.svg';
 import django from '@/app/assets/svg/skills/django.svg';
 import docker from '@/app/assets/svg/skills/docker.svg';
 import dotnet from '@/app/assets/svg/skills/dotnet.svg';
@@ -144,7 +146,7 @@ import threejs from '@/app/assets/svg/skills/threejs.svg';
 import typescript from '@/app/assets/svg/skills/typescript.svg';
 import unity from '@/app/assets/svg/skills/unity.svg';
 import ubuntu from '@/app/assets/svg/skills/ubuntu.svg';
-import vitejs from '@/app/assets/svg/skills/vitejs.svg';
+import vite from '@/app/assets/svg/skills/vite.svg';
 import vitest from '@/app/assets/svg/skills/vitest.svg';
 import vue from '@/app/assets/svg/skills/vue.svg';
 import vuetifyjs from '@/app/assets/svg/skills/vuetifyjs.svg';
@@ -179,6 +181,8 @@ export const skillsImage = (skill) => {
       return gas;
     case 'arch':
       return arch;
+    case 'astro':
+      return astro;
     case 'bash':
       return bash;
     case 'aurelia':
@@ -231,6 +235,8 @@ export const skillsImage = (skill) => {
       return dart;
     case 'deno':
       return deno;
+    case 'discordjs':
+      return discordjs;
     case 'django':
       return django;
     case 'docker':
@@ -453,8 +459,8 @@ export const skillsImage = (skill) => {
       return unity;
     case 'vercel':
       return vercel;
-    case 'vitejs':
-      return vitejs;
+    case 'vite':
+      return vite;
     case 'vitest':
       return vitest;
     case 'vuejs':
