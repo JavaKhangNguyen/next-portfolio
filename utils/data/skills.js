@@ -65,7 +65,8 @@ export const skillsData = [
   Coffeescript  
   Colab
   Confluence  
-  CoreUI  
+  CoreUI 
+  Cypress 
   D3
   Dart  
   Deno  
@@ -131,6 +132,7 @@ export const skillsData = [
   Numpy  
   NuxtJS  
   Odoo
+  OpenAI
   OpenCV
   Pandas  
   Perl
@@ -155,9 +157,9 @@ export const skillsData = [
   Remix
   Ruby  
   Rust
+  SalesForce
   SAP
   Sass
-  SalesForce
   Scikit-Learn
   Selenium 
   ServiceNow
@@ -172,13 +174,14 @@ export const skillsData = [
   Stencil
   Strapi
   Streamlit
+  Stripe
   Svelte  
   Swift  
   SwiperJS
   TailwindCSS  
   Tensorflow  
   ThreeJS
-  Typescript  
+  TypeScript  
   Ubuntu  
   Unity  
   Vercel  
@@ -188,6 +191,6 @@ export const skillsData = [
   VuetifyJS  
   Webix  
   WolframAlpha  
-  Wordpress  
+  WordPress  
   Yarn
 */

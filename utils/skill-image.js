@@ -25,11 +25,13 @@ import chartjs from '@/app/assets/svg/skills/chartjs.svg';
 import codeigniter from '@/app/assets/svg/skills/codeigniter.svg';
 import coffeescript from '@/app/assets/svg/skills/coffeescript.svg';
 import colab from '@/app/assets/svg/skills/colab.svg';
+import comfyui from '@/app/assets/svg/skills/comfyui.svg';
+import confluence from '@/app/assets/svg/skills/confluence.svg';
+import coreui from '@/app/assets/svg/skills/coreui.svg';
 import cplusplus from '@/app/assets/svg/skills/cplusplus.svg';
 import csharp from '@/app/assets/svg/skills/csharp.svg';
 import css from '@/app/assets/svg/skills/css.svg';
-import confluence from '@/app/assets/svg/skills/confluence.svg';
-import coreui from '@/app/assets/svg/skills/coreui.svg';
+import cypress from '@/app/assets/svg/skills/cypress.svg';
 import d3 from '@/app/assets/svg/skills/d3.svg';
 import dart from '@/app/assets/svg/skills/dart.svg';
 import deno from '@/app/assets/svg/skills/deno.svg';
@@ -98,6 +100,7 @@ import netlify from '@/app/assets/svg/skills/netlify.svg';
 import nginx from '@/app/assets/svg/skills/nginx.svg';
 import numpy from '@/app/assets/svg/skills/numpy.svg';
 import odoo from '@/app/assets/svg/skills/odoo.svg';
+import openai from '@/app/assets/svg/skills/openai.svg';
 import opencv from '@/app/assets/svg/skills/opencv.svg';
 import pandas from '@/app/assets/svg/skills/pandas.svg';
 import perl from '@/app/assets/svg/skills/perl.svg';
@@ -122,8 +125,9 @@ import redux from '@/app/assets/svg/skills/redux.svg';
 import remix from '@/app/assets/svg/skills/remix.svg';
 import ruby from '@/app/assets/svg/skills/ruby.svg';
 import rust from '@/app/assets/svg/skills/rust.svg';
-import sass from '@/app/assets/svg/skills/sass.svg';
 import salesforce from '@/app/assets/svg/skills/salesforce.svg';
+import sass from '@/app/assets/svg/skills/sass.svg';
+import sap from '@/app/assets/svg/skills/sap.svg';
 import scikitlearn from '@/app/assets/svg/skills/scikit-learn.svg';
 import servicenow from '@/app/assets/svg/skills/servicenow.svg';
 import shadcn from '@/app/assets/svg/skills/shadcn.svg';
@@ -136,6 +140,7 @@ import solana from '@/app/assets/svg/skills/solana.svg';
 import stencil from '@/app/assets/svg/skills/stencil.svg';
 import strapi from '@/app/assets/svg/skills/strapi.svg';
 import streamlit from '@/app/assets/svg/skills/streamlit.svg'
+import stripe from '@/app/assets/svg/skills/stripe.svg';
 import svelte from '@/app/assets/svg/skills/svelte.svg';
 import swift from '@/app/assets/svg/skills/swift.svg';
 import swiperjs from '@/app/assets/svg/skills/swiperjs.svg'
@@ -223,12 +228,16 @@ export const skillsImage = (skill) => {
       return coffeescript;
     case 'colab':
       return colab;
+    case 'comfyui':
+      return comfyui;
     case 'confluence':
       return confluence;
     case 'coreui':
       return coreui;
     case 'css':
       return css;
+    case 'cypress':
+      return cypress;
     case 'd3':
       return d3;
     case 'dart':
@@ -359,6 +368,8 @@ export const skillsImage = (skill) => {
       return numpy;
     case 'odoo': 
       return odoo;
+    case 'openai':
+      return openai;
     case 'opencv':
       return opencv;
     case 'pandas':
@@ -411,6 +422,8 @@ export const skillsImage = (skill) => {
       return salesforce;
     case 'sass':
       return sass;
+    case 'sap':
+      return sap;
     case 'scikitlearn':
       return scikitlearn;
     case 'selenium':
@@ -435,10 +448,12 @@ export const skillsImage = (skill) => {
       return stencil;
     case 'sqlalchemy':
       return sqlalchemy;
-    case 'streamlit':
-      return streamlit;
     case 'strapi':
       return strapi;
+    case 'streamlit':
+      return streamlit;
+    case 'stripe':
+      return stripe;
     case 'svelte':
       return svelte;
     case 'swift':
