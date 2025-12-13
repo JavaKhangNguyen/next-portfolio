@@ -1,5 +1,3 @@
-[![Qodana](https://github.com/JavaKhangNguyen/next-portfolio/actions/workflows/code_quality.yml/badge.svg)](https://github.com/JavaKhangNguyen/next-portfolio/actions/workflows/code_quality.yml)
-
 ## Live preview: [npkhang.id.vn](https://npkhang.id.vn/)
 
 ![](./public/screen.png)
