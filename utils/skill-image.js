@@ -342,7 +342,7 @@ export const skillsImage = (skill) => {
       return meteor;
     case 'memsql':
       return memsql;
-    case 'microsoft office':
+    case 'ms office':
       return microsoftoffice;
     case 'momentjs':
       return moment;

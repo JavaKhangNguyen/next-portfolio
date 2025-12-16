@@ -26,7 +26,7 @@ export const skillsData = [
   'ChartJS',
   'Ubuntu',
   'Nginx',
-  'Microsoft Office',
+  'MS Office',
   'PowerBI',
   'MySQL',
   'PowerShell'
@@ -120,7 +120,7 @@ export const skillsData = [
   Matlab  
   MemSQL  
   Meteor
-  Microsoft Office  
+  MS Office  
   MomentJS
   MongoDB
   Motion
