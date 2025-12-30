@@ -2,12 +2,14 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot, faPhoneVolume, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { motion } from "framer-motion";
 import { personalData } from "@/utils/data/personal-data";
+import credly from "@/app/assets/svg/skills/credly.svg";
 
 export default function ContactSection() {
   // Animation variants
@@ -142,6 +144,22 @@ export default function ContactSection() {
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </Link>
               </motion.div>
+              <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
+              <Link
+                href={`https://www.credly.com/users/${personalData.credly}`}
+                target="_blank"
+                aria-label="Credly"
+                className="transition-all duration-300 ease-in-out"
+              >
+                <Image
+                  src={credly}
+                  alt="credly"
+                  width={40}
+                  height={40}  
+                  className="h-full w-auto rounded-lg transition-all"
+                />
+              </Link>
+            </motion.div>
             </motion.div>
           </div>         
         </div>

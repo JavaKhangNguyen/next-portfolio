@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faFileArrowDown, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import {faFileArrowDown,faAddressCard,} from "@fortawesome/free-solid-svg-icons";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
 import { CodeLine } from "./code-line";
@@ -14,17 +14,18 @@ import { skillsData } from "@/utils/data/skills";
 import { FieldsOfInterest } from "./fields";
 import { LangsOfComms } from "./langs";
 import { Clock } from "./clock";
+import credly from "@/app/assets/svg/skills/credly.svg";
 
 export default function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-          src="/section.svg"
-          alt="Hero"
-          width={1572}
-          height={1572}
-          priority 
-          className="absolute -top-[98px] -z-10"
+        src="/section.svg"
+        alt="Hero"
+        width={1572}
+        height={1572}
+        priority
+        className="absolute -top-[98px] -z-10"
       />
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-5">
         <motion.div
@@ -41,7 +42,12 @@ export default function HeroSection() {
           >
             Hi! I am{" "}
             <span className="bg-nemesia text-transparent bg-clip-text">
-              <ReactTyped strings={[personalData.name]} typeSpeed={30} backSpeed={50} loop />
+              <ReactTyped
+                strings={[personalData.name]}
+                typeSpeed={30}
+                backSpeed={50}
+                loop
+              />
             </span>
             <br />
           </motion.h1>
@@ -73,6 +79,22 @@ export default function HeroSection() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </Link>
             </motion.div>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }}>
+              <Link
+                href={`https://www.credly.com/users/${personalData.credly}`}
+                target="_blank"
+                aria-label="Credly"
+                className="transition-all duration-300 ease-in-out"
+              >
+                <Image
+                  src={credly}
+                  alt="credly"
+                  width={40}
+                  height={40}  
+                  className="h-full w-auto rounded-lg transition-all"
+                />
+              </Link>
+            </motion.div>
           </motion.div>
 
           {/* Button section */}
@@ -93,7 +115,11 @@ export default function HeroSection() {
                 className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] hover:bg-candy rounded-full border-none text-center md:text-sm font-extrabold uppercase text-[#ffff] no-underline transition-all duration-200 ease-out md:font-bold flex items-center gap-1 hover:gap-2"
               >
                 <span>Contact me</span>
-                <FontAwesomeIcon icon={faAddressCard} size="lg" className="ml-2" />
+                <FontAwesomeIcon
+                  icon={faAddressCard}
+                  size="lg"
+                  className="ml-2"
+                />
               </motion.button>
             </Link>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -105,7 +131,12 @@ export default function HeroSection() {
                 href={personalData.resume}
               >
                 <span>Download CV</span>
-                <FontAwesomeIcon icon={faFileArrowDown} size="lg" className="ml-2" bounce/>
+                <FontAwesomeIcon
+                  icon={faFileArrowDown}
+                  size="lg"
+                  className="ml-2"
+                  bounce
+                />
               </Link>
             </motion.div>
           </motion.div>
@@ -120,7 +151,7 @@ export default function HeroSection() {
             <Clock />
           </motion.div>
         </motion.div>
-        
+
         {/* Code block */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -206,30 +237,42 @@ export default function HeroSection() {
               </CodeLine>
               {personalData.currentEmployment && (
                 <CodeLine delay={1.3}>
-                  <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">currentEmployment:</span>
+                  <span className="ml-4 lg:ml-8 mr-2 text-cyan-400">
+                    currentEmployment:
+                  </span>
                   <span className="text-gray-400">{"'"}</span>
-                  <span className="text-amber-300">{personalData.currentEmployment}</span>
+                  <span className="text-amber-300">
+                    {personalData.currentEmployment}
+                  </span>
                   <span className="text-gray-400">{"'"}</span>
                   <span className="text-gray-400">,</span>
                 </CodeLine>
               )}
               <CodeLine delay={1.4}>
-                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">hireable:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-emerald-400">
+                  hireable:
+                </span>
                 <span className="text-orange-400">{personalData.hirable}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.5}>
-                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">roleTitle:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-fuchsia-400">
+                  roleTitle:
+                </span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-amber-300">{personalData.roleTitle}</span>
                 <span className="text-gray-400">{"'"}</span>
                 <span className="text-gray-400">,</span>
               </CodeLine>
               <CodeLine delay={1.6} className="ml-4 lg:ml-8 mr-1">
-                {personalData.langs && (<LangsOfComms langs={personalData.langs} />)}
+                {personalData.langs && (
+                  <LangsOfComms langs={personalData.langs} />
+                )}
               </CodeLine>
               <CodeLine delay={1.7} className="ml-4 lg:ml-8 mr-2">
-                {personalData.fieldsOfInterest && (<FieldsOfInterest fields={personalData.fieldsOfInterest}/>)}
+                {personalData.fieldsOfInterest && (
+                  <FieldsOfInterest fields={personalData.fieldsOfInterest} />
+                )}
               </CodeLine>
               <CodeLine delay={1.8}>
                 <span className="text-gray-400">{`};`}</span>

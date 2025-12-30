@@ -6,7 +6,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import Certifications from "./components/homepage/certificates";
-import GitHubGraph from "./components/homepage/github";
+import GitHubGraph from "./components/homepage/githubgraph";
 
 export default async function Home() {
   return (
