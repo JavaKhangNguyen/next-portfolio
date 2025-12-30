@@ -1,12 +1,17 @@
 export const certificates = [
     {
+        img: '/certs/ServiceNow CIS-DF.webp',
+        title: 'ServiceNow Certified Implementation Specialist - Data Foundations',
+        time: '12/2025'
+    },
+    {
         img: '/certs/Gemini Certified Educator.webp',
         title: 'Gemini Certified Educator',
         time: '12/2025'
     },
     {
         img: '/certs/ServiceNow ITSM.webp',
-        title: 'ServiceNow Certified Implementation Specialist - ITSM',
+        title: 'ServiceNow Certified Implementation Specialist - IT Service Management',
         time: '10/2025'
     },
     {
