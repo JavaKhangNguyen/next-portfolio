@@ -12,6 +12,6 @@ export const personalData = {
   langs: ["VN", "GB"], // For the langs key, make sure to check available keys from react-flagkit when inputting data here
   hirable: 'false',
   currentEmployment: 'DXC Technology',
-  roleTitle: 'Analyst II Software Engineering',
+  roleTitle: 'Software Engineering Consultant',
   // fieldsOfInterest: ['Frontend','Backend','Fullstack','AI', 'DA', 'Game Dev', 'Low-code','No-code','Mobile'],
 }
