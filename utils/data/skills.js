@@ -23,8 +23,8 @@ export const skillsData = [
   'Streamlit',
   'Pandas',
   'Flask',
+  'OpenCV',
   'ChartJS',
-  'Ubuntu',
   'Nginx',
   'MS Office',
   'PowerBI',
@@ -44,6 +44,7 @@ export const skillsData = [
   AlpineJS
   Angular 
   Apache
+  AppsScript
   Arch
   Astro
   Aurelia 
@@ -91,7 +92,6 @@ export const skillsData = [
   GitLab
   Gimp  
   Go  
-  Google Apps Script
   GraphQL
   Haskell  
   Haxe  
