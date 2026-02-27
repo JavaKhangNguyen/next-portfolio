@@ -5,6 +5,7 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   devIndicators: false,
+  distDir: 'build'
 }
  
 module.exports = nextConfig
