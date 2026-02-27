@@ -1,9 +1,10 @@
-// vite.config.ts
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import vinext from "vinext";
 
 export default defineConfig({
+  plugins: [vinext()],
   build: {
     outDir: 'build',
-    emptyOutDir: true, // Ensures the build folder is cleared before each build
+    emptyOutDir: true, 
   },
 });
