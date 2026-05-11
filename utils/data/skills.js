@@ -28,8 +28,8 @@ export const skillsData = [
   'Nginx',
   'MS Office',
   'PowerBI',
-  'MySQL',
-  'PowerShell'
+  'PowerShell',
+  'Power Automate',
 ]
 
 // AVAILABLE SKILLS
@@ -142,6 +142,7 @@ export const skillsData = [
   Picsart  
   PostgreSQL  
   Postman
+  Power Automate
   PowerBI
   PowerShell
   Preact

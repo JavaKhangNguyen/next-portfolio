@@ -109,6 +109,7 @@ import php from '@/app/assets/svg/skills/php.svg';
 import picsart from '@/app/assets/svg/skills/picsart.svg';
 import postgresql from '@/app/assets/svg/skills/postgresql.svg';
 import postman from '@/app/assets/svg/skills/postman.svg';
+import powerautomate from '@/app/assets/svg/skills/powerautomate.svg';
 import powerbi from '@/app/assets/svg/skills/powerbi.svg';
 import powershell from '@/app/assets/svg/skills/powershell.svg';
 import preact from '@/app/assets/svg/skills/preact.svg';
@@ -384,6 +385,8 @@ export const skillsImage = (skill) => {
       return picsart;
     case 'postman':
       return postman;
+    case 'power automate':
+      return powerautomate;
     case 'powerbi':
       return powerbi;
     case 'powershell':

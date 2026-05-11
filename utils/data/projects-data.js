@@ -54,12 +54,12 @@ export const projectsData = [
     //     url: 'https://plant-classification.streamlit.app/',
     // }
     {
-        id: 5,
+        id: 7,
         name: 'ServiceNow R&D',
         description: "A ServiceNow Development Instance for research works on ServiceNow Products & Applications. Contact platform owner to request access.",
         langs: ['JavaScript'],
         tools: ['ServiceNow'],
-        role: 'Fullstack Developer',
+        role: 'ServiceNow Developer',
         url: 'https://dev228628.service-now.com/',
     },
 ];
