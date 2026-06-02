@@ -130,6 +130,7 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 | `react-fast-marquee` |
 | `react-flagkit` |
 | `react-github-calendar` |
+| `react-calendly` |
 | `react-typed` |
 | **Core Frameworks** |
 | `next` |
@@ -148,3 +149,5 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 | `eslint-config-next` |
 | `prettier` |
 | `prettier-plugin-tailwindcss` |
+
+<!-- [![Codacy Badge](https://app.codacy.com/project/badge/Grade/777546ce10aa4899adb34ab6c402b489)](https://app.codacy.com/gh/JavaKhangNguyen/next-portfolio/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) -->
