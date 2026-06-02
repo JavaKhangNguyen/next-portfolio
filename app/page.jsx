@@ -6,7 +6,8 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import Certifications from "./components/homepage/certificates";
-import GitHubGraph from "./components/homepage/githubgraph";
+import Calendly from "./components/homepage/calendly";
+// import GitHubGraph from "./components/homepage/githubgraph";
 
 export default async function Home() {
   return (
@@ -18,7 +19,8 @@ export default async function Home() {
       <Projects />
       <Education />
       <Certifications />
-      <GitHubGraph />
+      {/* <GitHubGraph /> For now this component is not used */}
+      <Calendly />
       <ContactSection />
     </div>
   )

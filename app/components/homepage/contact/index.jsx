@@ -63,7 +63,7 @@ export default function ContactSection() {
   return (
     <motion.div 
       id="contact" 
-      className="my-12 lg:my-16 relative mt-24 text-white"
+      className="my-2 lg:my-6 relative mt-24 text-white"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
