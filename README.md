@@ -1,4 +1,4 @@
-<!-- [![Codacy Badge](https://app.codacy.com/project/badge/Grade/777546ce10aa4899adb34ab6c402b489)](https://app.codacy.com/gh/JavaKhangNguyen/next-portfolio/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) -->
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/777546ce10aa4899adb34ab6c402b489)](https://app.codacy.com/gh/JavaKhangNguyen/next-portfolio/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ## Live preview: [npkhang.id.vn](https://npkhang.id.vn/)
 
