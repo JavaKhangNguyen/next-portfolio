@@ -487,8 +487,6 @@ export const skillsImage = (skill) => {
       return vuetifyjs;
     case 'webix':
       return webix;
-    case 'webex':
-      return webex;
     case 'wolframalpha':
       return wolframalpha;
     case 'wordpress':

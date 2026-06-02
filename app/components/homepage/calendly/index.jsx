@@ -20,12 +20,6 @@ export default function Calendly(){
         hidden: { opacity: 0, y: 20 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
     }
-
-
-    // Responsive block size and margin
-    const [blockSize, setBlockSize] = useState(15);
-    const [blockMargin, setBlockMargin] = useState(5);
-    const [fontSize, setFontSize] = useState(16);
     
     useEffect(() => {
         const handleResize = () => {
