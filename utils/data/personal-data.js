@@ -10,7 +10,7 @@ export const personalData = {
   github: 'JavaKhangNguyen',
   linkedIn: 'ngpkhang',
   credly: 'npkhang',
-  calendly: 'knguyen298',
+  calendly: 'https://calendly.com/knguyen298/bookwithme?hide_gdpr_banner=1&text_color=4995ff',
   // Others
   resume: "https://drive.google.com/file/d/1ZOn3LIVk8HwooiVqYnL-_5GHfuBX5aXm/view?usp=drive_link",
   langs: ["VN", "GB"], // For the langs key, make sure to check available keys from react-flagkit when inputting data here

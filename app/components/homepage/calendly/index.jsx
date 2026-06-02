@@ -61,7 +61,7 @@ export default function Calendly(){
             </div>
             <motion.div className="flex justify-center w-full my-4" variants={calendarVariants}>
                 <InlineWidget
-                    url={`https://calendly.com/${personalData.calendly}/bookwithme?hide_gdpr_banner=1&text_color=4995ff"`}
+                    url={personalData.calendly}
                     styles={{ height: "700px", width: "100%"}}
                 />
             </motion.div>
