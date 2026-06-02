@@ -53,4 +53,4 @@ export default function AboutSection() {
       </div>
     </motion.div>
   );
-};
+}

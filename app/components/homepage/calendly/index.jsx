@@ -1,6 +1,6 @@
 // @flow strict
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { InlineWidget } from "react-calendly";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,30 +20,6 @@ export default function Calendly(){
         hidden: { opacity: 0, y: 20 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
     }
-    
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth <= 640) { 
-                setBlockSize(8);
-                setBlockMargin(2);
-                setFontSize(10);
-            } 
-            else if (window.innerWidth <= 768) { 
-                setBlockSize(10);
-                setBlockMargin(3);
-                setFontSize(12);
-            } 
-            else {
-                setBlockSize(15);
-                setBlockMargin(5);
-                setFontSize(16);
-            }
-        };
-        
-        handleResize(); 
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
 
     return (
         <motion.div 
