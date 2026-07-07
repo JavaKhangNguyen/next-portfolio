@@ -1,5 +1,10 @@
 export const certificates = [
     {
+        img: '/certs/ServiceNow CIS-HR.webp',
+        title: 'ServiceNow Certified Implementation Specialist - Human Resources',
+        time: '07/2026'
+    },
+    {
         img: '/certs/ServiceNow CIS-PA.webp',
         title: 'ServiceNow Certified Implementation Specialist - Platform Analytics',
         time: '05/2026'
