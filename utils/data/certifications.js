@@ -1,4 +1,19 @@
 export const certificates = [
+    // {
+    //     img: '/certs/ServiceNow CPOA.webp',
+    //     title: 'ServiceNow Certified Platform Owner Associate',
+    //     time: '09/2026'
+    // },
+    {
+        img: '/certs/Claude CCDV-F.webp',
+        title: 'Claude Certified Developer - Foundation',
+        time: '09/2026'
+    },
+    {
+        img: '/certs/Claude CCAO-F.webp',
+        title: 'Claude Certified Associate - Foundation',
+        time: '07/2026'
+    },
     {
         img: '/certs/ServiceNow CIS-HR.webp',
         title: 'ServiceNow Certified Implementation Specialist - Human Resources',
@@ -39,34 +54,34 @@ export const certificates = [
         title: 'GitHub Foundations',
         time: '11/2024'
     },
-    {
-        img: '/certs/Tensorflow Dev.webp',
-        title: 'DeepLearning.AI TensorFlow Developer',
-        time: '06/2023'
-    },
-    {
-        img: '/certs/React.webp',
-        title: 'HackerRank React',
-        time: '06/2023'
-    },
-    {
-        img: '/certs/CSS.webp',
-        title: 'HackerRank CSS',
-        time: '03/2023'
-    },
-    {
-        img: '/certs/IoT Fundamentals.webp',
-        title: 'CCNA: IoT Fundamentals',
-        time: '03/2023'
-    },
-    {
-        img: '/certs/Intro To Networks.webp',
-        title: 'CCNA: Introduction to Networks',
-        time: '12/2022'
-    },
-    {
-        img: '/certs/Google IT Support.webp',
-        title: 'Google IT Support',
-        time: '10/2021'
-    }  
+    // {
+    //     img: '/certs/Tensorflow Dev.webp',
+    //     title: 'DeepLearning.AI TensorFlow Developer',
+    //     time: '06/2023'
+    // },
+    // {
+    //     img: '/certs/React.webp',
+    //     title: 'HackerRank React',
+    //     time: '06/2023'
+    // },
+    // {
+    //     img: '/certs/CSS.webp',
+    //     title: 'HackerRank CSS',
+    //     time: '03/2023'
+    // },
+    // {
+    //     img: '/certs/IoT Fundamentals.webp',
+    //     title: 'CCNA: IoT Fundamentals',
+    //     time: '03/2023'
+    // },
+    // {
+    //     img: '/certs/Intro To Networks.webp',
+    //     title: 'CCNA: Introduction to Networks',
+    //     time: '12/2022'
+    // },
+    // {
+    //     img: '/certs/Google IT Support.webp',
+    //     title: 'Google IT Support',
+    //     time: '10/2021'
+    // }  
 ]

@@ -2,20 +2,22 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'AppsScript',
-  'Python',
   'ServiceNow',
+  'Python',
   'NextJS',
   'ReactJS',
-  'Vite',
+  'Claude',
+  'PowerShell',
   'TailwindCSS',
   'NodeJS',
+  'Vite',
+  'Postman',
+  'Git',
+  'Vercel',
   'MaterialUI',
   'CoreUI',
   'Motion',
   'Figma',
-  'Git',
-  'Postman',
-  'Vercel',
   'Colab',
   'SwiperJS',
   'LottieFiles',
@@ -26,10 +28,7 @@ export const skillsData = [
   'OpenCV',
   'ChartJS',
   'Nginx',
-  'MS Office',
-  'PowerBI',
-  'PowerShell',
-  'Power Automate',
+  'PowerBI'
 ]
 
 // AVAILABLE SKILLS
@@ -64,6 +63,8 @@ export const skillsData = [
   CakePHP
   CapacitorJs  
   ChartJS
+  Claude
+  Codeigniter
   Coffeescript  
   Colab
   Confluence  

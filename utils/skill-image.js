@@ -22,6 +22,7 @@ import cakephp from '@/app/assets/svg/skills/cakephp.svg';
 import canva from '@/app/assets/svg/skills/canva.svg';
 import capacitorjs from '@/app/assets/svg/skills/capacitorjs.svg';
 import chartjs from '@/app/assets/svg/skills/chartjs.svg';
+import claude from '@/app/assets/svg/skills/claude.svg';
 import codeigniter from '@/app/assets/svg/skills/codeigniter.svg';
 import coffeescript from '@/app/assets/svg/skills/coffeescript.svg';
 import colab from '@/app/assets/svg/skills/colab.svg';
@@ -223,6 +224,8 @@ export const skillsImage = (skill) => {
       return cakephp;
     case 'chartjs':
       return chartjs;
+    case 'claude':
+      return claude;
     case 'codeigniter':
       return codeigniter;
     case 'coffeescript':
