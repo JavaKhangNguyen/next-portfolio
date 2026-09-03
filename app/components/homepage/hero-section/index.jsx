@@ -41,7 +41,7 @@ export default function HeroSection() {
             className="text-xl md:text-3xl xl:text-4xl font-bold leading-10 text-white md:font-extrabold lg:leading-[3.5rem]"
           >
             Hi! I am{" "}
-            <span className="bg-nemesia text-transparent bg-clip-text">
+            <span className="bg-sunset text-transparent bg-clip-text">
               <ReactTyped
                 strings={[personalData.name]}
                 typeSpeed={30}

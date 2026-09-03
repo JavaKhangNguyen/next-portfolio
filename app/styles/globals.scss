@@ -44,6 +44,10 @@
     @apply bg-gradient-to-r from-emerald-400 to-cyan-400
   }
 
+  .bg-sunset {
+    @apply bg-[linear-gradient(90deg,#ffc271_9.99%,#ff7e51_35%,#fd7f53_60%,#4995ff_95%)];
+  }
+
   .bg-candy{
     @apply bg-gradient-to-r from-fuchsia-400 to-pink-600
   }
