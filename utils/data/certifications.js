@@ -1,8 +1,13 @@
 export const certificates = [
+    {
+        img: '/certs/AWS AIF-C01.webp',
+        title: 'AWS Certified AI Practitioner',
+        time: '11/2026'
+    },
     // {
     //     img: '/certs/ServiceNow CPOA.webp',
     //     title: 'ServiceNow Certified Platform Owner Associate',
-    //     time: '09/2026'
+    //     time: '12/2026'
     // },
     {
         img: '/certs/Claude CCDV-F.webp',
